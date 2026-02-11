@@ -1,0 +1,27 @@
+{
+  "name": "input-otp",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "input-otp.tsx",
+      "content": "import {\n  type Component,\n  type ComponentProps,\n  type JSX,\n  splitProps,\n} from \"solid-js\";\nimport * as OTPFieldPrimitive from \"@radix-solid/one-time-password-field\";\nimport { cn } from \"~/lib/utils\";\n\n/* -------------------------------------------------------------------------------------------------\n * InputOTP — Root wrapper\n * -----------------------------------------------------------------------------------------------*/\n\ninterface InputOTPProps extends ComponentProps<typeof OTPFieldPrimitive.Root> {\n  class?: string;\n  containerClass?: string;\n}\n\nconst InputOTP: Component<InputOTPProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\", \"containerClass\"]);\n  return (\n    <OTPFieldPrimitive.Root\n      data-slot=\"input-otp\"\n      class={cn(\"flex items-center has-disabled:opacity-50\", local.class)}\n      {...rest}\n    />\n  );\n};\n\n/* -------------------------------------------------------------------------------------------------\n * InputOTPGroup — Groups input slots together\n * -----------------------------------------------------------------------------------------------*/\n\ninterface InputOTPGroupProps extends JSX.HTMLAttributes<HTMLDivElement> {\n  ref?: (el: HTMLDivElement) => void;\n}\n\nconst InputOTPGroup: Component<InputOTPGroupProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"input-otp-group\"\n      class={cn(\n        \"has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40 has-aria-invalid:border-destructive flex items-center rounded-lg has-aria-invalid:ring-3\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* -------------------------------------------------------------------------------------------------\n * InputOTPSlot — Individual OTP slot with styling\n * -----------------------------------------------------------------------------------------------*/\n\ninterface InputOTPSlotProps extends ComponentProps<\n  typeof OTPFieldPrimitive.Input\n> {\n  class?: string;\n}\n\nconst InputOTPSlot: Component<InputOTPSlotProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <OTPFieldPrimitive.Input\n      data-slot=\"input-otp-slot\"\n      class={cn(\n        \"dark:bg-input/30 border-input data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive relative flex size-8 items-center justify-center border-y border-r text-sm transition-all outline-none first:rounded-l-lg first:border-l last:rounded-r-lg data-[active=true]:z-10 data-[active=true]:ring-3\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* -------------------------------------------------------------------------------------------------\n * InputOTPSeparator — Separator between groups\n * -----------------------------------------------------------------------------------------------*/\n\ninterface InputOTPSeparatorProps extends JSX.HTMLAttributes<HTMLDivElement> {}\n\nconst InputOTPSeparator: Component<InputOTPSeparatorProps> = (props) => {\n  return (\n    <div\n      data-slot=\"input-otp-separator\"\n      class=\"flex items-center [&_svg:not([class*='size-'])]:size-4\"\n      role=\"separator\"\n      {...props}\n    >\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"24\"\n        height=\"24\"\n        viewBox=\"0 0 24 24\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n        class=\"lucide lucide-minus\"\n      >\n        <path d=\"M5 12h14\" />\n      </svg>\n    </div>\n  );\n};\n\nexport { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator };\nexport type {\n  InputOTPProps,\n  InputOTPGroupProps,\n  InputOTPSlotProps,\n  InputOTPSeparatorProps,\n};\n\n// Re-export HiddenInput from primitive for form usage\nexport { OneTimePasswordFieldHiddenInput as InputOTPHiddenInput } from \"@radix-solid/one-time-password-field\";\n",
+      "type": "registry:ui",
+      "target": "components/ui/input-otp.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export {\n  InputOTP,\n  InputOTPGroup,\n  InputOTPSlot,\n  InputOTPSeparator,\n  InputOTPHiddenInput,\n} from './input-otp';\nexport type {\n  InputOTPProps,\n  InputOTPGroupProps,\n  InputOTPSlotProps,\n  InputOTPSeparatorProps,\n} from './input-otp';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/one-time-password-field@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

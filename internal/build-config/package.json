@@ -1,0 +1,13 @@
+{
+  "name": "@repo/build-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./tsup.config.ts"
+  },
+  "dependencies": {
+    "esbuild-plugin-solid": "^0.6.0",
+    "tsup": "^8.3.6"
+  }
+}

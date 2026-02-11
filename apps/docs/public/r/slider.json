@@ -1,0 +1,27 @@
+{
+  "name": "slider",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "slider.tsx",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as SliderPrimitive from \"@radix-solid/slider\";\nimport { cn } from \"~/lib/utils\";\n\nconst Slider: Component<ComponentProps<typeof SliderPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <SliderPrimitive.Root\n      data-slot=\"slider\"\n      class={cn(\n        \"relative flex w-full touch-none items-center select-none data-[disabled]:opacity-50 data-[orientation=vertical]:h-full data-[orientation=vertical]:min-h-40 data-[orientation=vertical]:w-auto data-[orientation=vertical]:flex-col\",\n        local.class\n      )}\n      {...rest}\n    >\n      <SliderPrimitive.Track\n        data-slot=\"slider-track\"\n        class=\"bg-muted relative grow overflow-hidden rounded-full data-[orientation=horizontal]:h-1 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-1\"\n      >\n        <SliderPrimitive.Range\n          data-slot=\"slider-range\"\n          class=\"bg-primary absolute select-none data-[orientation=horizontal]:h-full data-[orientation=vertical]:w-full\"\n        />\n      </SliderPrimitive.Track>\n      <SliderPrimitive.Thumb\n        data-slot=\"slider-thumb\"\n        class=\"border-ring ring-ring/50 relative block size-3 shrink-0 rounded-full border bg-white transition-[color,box-shadow] select-none after:absolute after:-inset-2 hover:ring-3 focus-visible:ring-3 focus-visible:outline-hidden active:ring-3 disabled:pointer-events-none disabled:opacity-50\"\n      />\n    </SliderPrimitive.Root>\n  );\n};\n\nexport { Slider };\n",
+      "type": "registry:ui",
+      "target": "components/ui/slider.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Slider } from './slider';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/slider@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "aspect-ratio",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "aspect-ratio.tsx",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as AspectRatioPrimitive from \"@radix-solid/aspect-ratio\";\nimport { cn } from \"~/lib/utils\";\n\ninterface AspectRatioProps extends ComponentProps<\n  typeof AspectRatioPrimitive.Root\n> {\n  class?: string;\n}\n\nconst AspectRatio: Component<AspectRatioProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AspectRatioPrimitive.Root\n      data-slot=\"aspect-ratio\"\n      class={cn(local.class)}\n      {...rest}\n    />\n  );\n};\n\nexport { AspectRatio };\nexport type { AspectRatioProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/aspect-ratio.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { AspectRatio } from './aspect-ratio';\nexport type { AspectRatioProps } from './aspect-ratio';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/aspect-ratio@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

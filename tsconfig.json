@@ -1,0 +1,13 @@
+{
+  "extends": "./internal/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@radix-solid/*": ["packages/solid/*/src"],
+      "@shadcn-solid/*": ["packages/shadcn/*/src"],
+      "@repo/*": ["internal/*/src"]
+    }
+  },
+  "include": [],
+  "references": []
+}

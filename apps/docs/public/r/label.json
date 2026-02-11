@@ -1,0 +1,27 @@
+{
+  "name": "label",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "label.tsx",
+      "content": "import { splitProps } from \"solid-js\";\nimport {\n  Label as LabelPrimitive,\n  type LabelProps as LabelPrimitiveProps,\n} from \"@radix-solid/label\";\nimport { cn } from \"~/lib/utils\";\n\ninterface LabelProps extends LabelPrimitiveProps {\n  class?: string;\n}\n\nfunction Label(props: LabelProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <LabelPrimitive\n      data-slot=\"label\"\n      class={cn(\n        \"flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\nexport { Label };\nexport type { LabelProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/label.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Label } from './label';\nexport type { LabelProps } from './label';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/label@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

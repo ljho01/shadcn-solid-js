@@ -1,0 +1,27 @@
+{
+  "name": "radio-group",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "radio-group.tsx",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as RadioGroupPrimitive from \"@radix-solid/radio-group\";\nimport { cn } from \"~/lib/utils\";\n\nconst RadioGroup: Component<ComponentProps<typeof RadioGroupPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <RadioGroupPrimitive.Root\n      data-slot=\"radio-group\"\n      class={cn(\"grid w-full gap-2\", local.class)}\n      {...rest}\n    />\n  );\n};\n\nconst RadioGroupItem: Component<\n  ComponentProps<typeof RadioGroupPrimitive.Item>\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <RadioGroupPrimitive.Item\n      data-slot=\"radio-group-item\"\n      class={cn(\n        \"border-input text-primary dark:bg-input/30 focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 group/radio-group-item peer relative flex aspect-square size-4 shrink-0 rounded-full border outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:ring-3 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:ring-3\",\n        local.class\n      )}\n      {...rest}\n    >\n      <RadioGroupPrimitive.Indicator\n        data-slot=\"radio-group-indicator\"\n        class=\"group-aria-invalid/radio-group-item:text-destructive text-primary flex size-4 items-center justify-center\"\n      >\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"24\"\n          height=\"24\"\n          viewBox=\"0 0 24 24\"\n          fill=\"none\"\n          stroke=\"currentColor\"\n          stroke-width=\"2\"\n          stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"\n          class=\"absolute top-1/2 left-1/2 size-2 -translate-x-1/2 -translate-y-1/2 fill-current\"\n        >\n          <circle cx=\"12\" cy=\"12\" r=\"10\" />\n        </svg>\n      </RadioGroupPrimitive.Indicator>\n    </RadioGroupPrimitive.Item>\n  );\n};\n\nexport { RadioGroup, RadioGroupItem };\n",
+      "type": "registry:ui",
+      "target": "components/ui/radio-group.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { RadioGroup, RadioGroupItem } from './radio-group';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/radio-group@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

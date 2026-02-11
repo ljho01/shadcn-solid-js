@@ -1,0 +1,24 @@
+{
+  "name": "item",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "item.tsx",
+      "content": "import { type Component, type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\n/* ---------------------------------- Item ---------------------------------- */\n\nconst Item: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"item\"\n      class={cn(\n        \"[a]:hover:bg-muted rounded-lg border text-sm w-full group/item focus-visible:border-ring focus-visible:ring-ring/50 flex items-center flex-wrap outline-none transition-colors duration-100 focus-visible:ring-[3px] [a]:transition-colors\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* -------------------------------- ItemIcon -------------------------------- */\n\nconst ItemIcon: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"item-icon\"\n      class={cn(\"text-muted-foreground shrink-0 [&_svg]:size-5\", local.class)}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------- ItemContent ------------------------------ */\n\nconst ItemContent: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"item-content\"\n      class={cn(\n        \"flex flex-1 flex-col gap-1 group-data-[size=xs]/item:gap-0 [&+[data-slot=item-content]]:flex-none\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------- ItemTitle -------------------------------- */\n\nconst ItemTitle: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"item-title\"\n      class={cn(\n        \"line-clamp-1 flex w-fit items-center gap-2 text-sm leading-snug font-medium underline-offset-4\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ----------------------------- ItemDescription ---------------------------- */\n\nconst ItemDescription: Component<JSX.HTMLAttributes<HTMLParagraphElement>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <p\n      data-slot=\"item-description\"\n      class={cn(\n        \"text-muted-foreground [&>a:hover]:text-primary line-clamp-2 text-left text-sm leading-normal font-normal group-data-[size=xs]/item:text-xs [&>a]:underline [&>a]:underline-offset-4\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------- ItemAction ------------------------------- */\n\nconst ItemAction: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"item-action\"\n      class={cn(\"flex items-center gap-2\", local.class)}\n      {...rest}\n    />\n  );\n};\n\nexport { Item, ItemIcon, ItemContent, ItemTitle, ItemDescription, ItemAction };\n",
+      "type": "registry:ui",
+      "target": "components/ui/item.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Item, ItemIcon, ItemContent, ItemTitle, ItemDescription, ItemAction } from './item';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

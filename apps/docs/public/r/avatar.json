@@ -1,0 +1,27 @@
+{
+  "name": "avatar",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "avatar.tsx",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as AvatarPrimitive from \"@radix-solid/avatar\";\nimport { cn } from \"~/lib/utils\";\n\n/* --------------------------------- Avatar --------------------------------- */\n\nconst Avatar: Component<ComponentProps<typeof AvatarPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AvatarPrimitive.Root\n      data-slot=\"avatar\"\n      class={cn(\n        \"after:border-border group/avatar relative flex size-8 shrink-0 rounded-full select-none after:absolute after:inset-0 after:rounded-full after:border after:mix-blend-darken data-[size=lg]:size-10 data-[size=sm]:size-6 dark:after:mix-blend-lighten\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------- AvatarImage ------------------------------ */\n\nconst AvatarImage: Component<ComponentProps<typeof AvatarPrimitive.Image>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AvatarPrimitive.Image\n      data-slot=\"avatar-image\"\n      class={cn(\n        \"aspect-square size-full rounded-full object-cover\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ----------------------------- AvatarFallback ----------------------------- */\n\nconst AvatarFallback: Component<\n  ComponentProps<typeof AvatarPrimitive.Fallback>\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AvatarPrimitive.Fallback\n      data-slot=\"avatar-fallback\"\n      class={cn(\n        \"bg-muted text-muted-foreground flex size-full items-center justify-center rounded-full text-sm group-data-[size=sm]/avatar:text-xs\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\nexport { Avatar, AvatarImage, AvatarFallback };\n",
+      "type": "registry:ui",
+      "target": "components/ui/avatar.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Avatar, AvatarImage, AvatarFallback } from './avatar';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/avatar@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

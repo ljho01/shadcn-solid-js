@@ -1,0 +1,24 @@
+{
+  "name": "native-select",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "native-select.tsx",
+      "content": "import { type Component, type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\ninterface NativeSelectProps extends JSX.SelectHTMLAttributes<HTMLSelectElement> {}\n\nconst NativeSelect: Component<NativeSelectProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <select\n      data-slot=\"native-select\"\n      class={cn(\n        \"border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 dark:hover:bg-input/50 focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:aria-invalid:border-destructive/50 h-8 w-full min-w-0 appearance-none rounded-lg border bg-transparent py-1 pr-8 pl-2.5 text-sm transition-colors outline-none select-none focus-visible:ring-3 disabled:pointer-events-none disabled:cursor-not-allowed aria-invalid:ring-3 data-[size=sm]:h-7 data-[size=sm]:rounded-[min(var(--radius-md),10px)] data-[size=sm]:py-0.5\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\nexport { NativeSelect };\nexport type { NativeSelectProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/native-select.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { NativeSelect } from './native-select';\nexport type { NativeSelectProps } from './native-select';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

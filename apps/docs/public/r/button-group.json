@@ -1,0 +1,24 @@
+{
+  "name": "button-group",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "button-group.tsx",
+      "content": "import { type Component, type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\ninterface ButtonGroupProps extends JSX.HTMLAttributes<HTMLDivElement> {}\n\nconst ButtonGroup: Component<ButtonGroupProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"button-group\"\n      class={cn(\n        \"has-[>[data-slot=button-group]]:gap-2 has-[select[aria-hidden=true]:last-child]:[&>[data-slot=select-trigger]:last-of-type]:rounded-r-lg flex w-fit items-stretch *:focus-visible:z-10 *:focus-visible:relative [&>[data-slot=select-trigger]:not([class*='w-'])]:w-fit [&>input]:flex-1 [&>[data-slot]:not(:has(~[data-slot]))]:rounded-r-lg! [&>*:not(:first-child)]:rounded-l-none [&>*:not(:first-child)]:border-l-0 [&>*:not(:last-child)]:rounded-r-none\",\n        local.class\n      )}\n      role=\"group\"\n      {...rest}\n    />\n  );\n};\n\nexport { ButtonGroup };\nexport type { ButtonGroupProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/button-group.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { ButtonGroup } from './button-group';\nexport type { ButtonGroupProps } from './button-group';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

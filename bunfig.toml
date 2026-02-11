@@ -1,0 +1,8 @@
+[install]
+# Use exact versions by default
+exact = true
+
+[install.scopes]
+# Workspace packages
+"@radix-solid" = { }
+"@shadcn-solid" = { }

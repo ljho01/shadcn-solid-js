@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+.turbo/
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Bun
+bun.lockb
+
+# Playwright
+playwright-report/
+test-results/
+.playwright-mcp/
+
+# IDE / Local
+.cursor/
+
+# References (don't track, too large)
+references/

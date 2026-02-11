@@ -1,0 +1,27 @@
+{
+  "name": "progress",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "progress.tsx",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as ProgressPrimitive from \"@radix-solid/progress\";\nimport { cn } from \"~/lib/utils\";\n\nconst Progress: Component<ComponentProps<typeof ProgressPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\", \"value\"]);\n  return (\n    <ProgressPrimitive.Root\n      data-slot=\"progress\"\n      class={cn(\n        \"bg-muted relative flex h-1 w-full items-center overflow-x-hidden rounded-full\",\n        local.class\n      )}\n      {...rest}\n    >\n      <ProgressPrimitive.Indicator\n        data-slot=\"progress-indicator\"\n        class=\"bg-primary size-full flex-1 transition-all\"\n        style={{ transform: `translateX(-${100 - (local.value || 0)}%)` }}\n      />\n    </ProgressPrimitive.Root>\n  );\n};\n\nexport { Progress };\n",
+      "type": "registry:ui",
+      "target": "components/ui/progress.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Progress } from './progress';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/progress@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "separator",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "index.ts",
+      "content": "export { Separator } from './separator';\nexport type { SeparatorProps } from './separator';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    },
+    {
+      "path": "separator.tsx",
+      "content": "import { splitProps } from \"solid-js\";\nimport {\n  Separator as SeparatorPrimitive,\n  type SeparatorProps as SeparatorPrimitiveProps,\n} from \"@radix-solid/separator\";\nimport { cn } from \"~/lib/utils\";\n\ninterface SeparatorProps extends SeparatorPrimitiveProps {\n  class?: string;\n  orientation?: \"horizontal\" | \"vertical\";\n}\n\nfunction Separator(props: SeparatorProps) {\n  const [local, rest] = splitProps(props, [\"class\", \"orientation\"]);\n\n  const orientation = () => local.orientation ?? \"horizontal\";\n\n  return (\n    <SeparatorPrimitive\n      data-slot=\"separator\"\n      orientation={orientation()}\n      class={cn(\n        \"bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-px data-[orientation=vertical]:self-stretch\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\nexport { Separator };\nexport type { SeparatorProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/separator.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/separator@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

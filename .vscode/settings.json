@@ -1,0 +1,40 @@
+{
+  // 워크스페이스 테마 강제 (다크 테마)
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  // 저장 시 자동 포맷
+  "editor.formatOnSave": true,
+  // 붙여넣기 시 자동 포맷
+  "editor.formatOnPaste": true,
+  // 기본 포맷터: Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 저장 시 ESLint 자동 fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // ESLint 설정
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // TypeScript/JavaScript 파일 Prettier 포맷터 지정
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

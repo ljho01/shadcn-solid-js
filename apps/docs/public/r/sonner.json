@@ -1,0 +1,27 @@
+{
+  "name": "sonner",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "sonner.tsx",
+      "content": "import {\n  type Component,\n  type ComponentProps,\n  type JSX,\n  splitProps,\n  createSignal,\n  onMount,\n  onCleanup,\n  Show,\n} from \"solid-js\";\nimport { isServer } from \"solid-js/web\";\nimport { Toaster as SolidSonner } from \"solid-sonner\";\n\ntype ToasterProps = ComponentProps<typeof SolidSonner>;\n\nconst Toaster: Component<ToasterProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"theme\", \"style\"]);\n\n  const [mounted, setMounted] = createSignal(false);\n  const [resolvedTheme, setResolvedTheme] = createSignal<\"light\" | \"dark\">(\n    \"light\"\n  );\n\n  onMount(() => {\n    if (isServer) return;\n\n    setMounted(true);\n\n    // Detect initial theme from <html> class\n    const detect = () => {\n      const isDark = document.documentElement.classList.contains(\"dark\");\n      setResolvedTheme(isDark ? \"dark\" : \"light\");\n    };\n    detect();\n\n    // Watch for class changes on <html> to detect theme switches\n    const observer = new MutationObserver(detect);\n    observer.observe(document.documentElement, {\n      attributes: true,\n      attributeFilter: [\"class\"],\n    });\n\n    onCleanup(() => observer.disconnect());\n  });\n\n  return (\n    <Show when={mounted()}>\n      <SolidSonner\n        theme={local.theme ?? resolvedTheme()}\n        class=\"toaster group\"\n        toastOptions={{\n          classes: {\n            toast:\n              \"group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg\",\n            description: \"group-[.toast]:text-muted-foreground\",\n            actionButton:\n              \"group-[.toast]:bg-primary group-[.toast]:text-primary-foreground group-[.toast]:font-medium\",\n            cancelButton:\n              \"group-[.toast]:bg-muted group-[.toast]:text-muted-foreground group-[.toast]:font-medium\",\n          },\n        }}\n        style={\n          {\n            \"--normal-bg\": \"var(--popover)\",\n            \"--normal-text\": \"var(--popover-foreground)\",\n            \"--normal-border\": \"var(--border)\",\n            \"--border-radius\": \"var(--radius)\",\n            ...(typeof local.style === \"object\" ? local.style : {}),\n          } as JSX.CSSProperties\n        }\n        {...rest}\n      />\n    </Show>\n  );\n};\n\nexport { Toaster };\nexport type { ToasterProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/sonner.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Toaster } from './sonner';\nexport type { ToasterProps } from './sonner';\nexport { toast } from 'solid-sonner';\nexport type { ToastT, ExternalToast } from 'solid-sonner';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "solid-sonner@^0.2.8"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

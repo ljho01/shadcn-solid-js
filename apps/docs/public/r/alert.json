@@ -1,0 +1,27 @@
+{
+  "name": "alert",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "alert.tsx",
+      "content": "import { type JSX, splitProps } from \"solid-js\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\nimport { cn } from \"~/lib/utils\";\n\n/* -------------------------------------------------------------------------------------------------\n * Alert\n * -----------------------------------------------------------------------------------------------*/\n\nconst alertVariants = cva(\n  \"grid gap-0.5 rounded-lg border px-2.5 py-2 text-left text-sm has-data-[slot=alert-action]:relative has-data-[slot=alert-action]:pr-18 has-[>svg]:grid-cols-[auto_1fr] has-[>svg]:gap-x-2 *:[svg]:row-span-2 *:[svg]:translate-y-0.5 *:[svg]:text-current *:[svg:not([class*='size-'])]:size-4 w-full relative group/alert\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-card text-card-foreground\",\n        destructive:\n          \"text-destructive bg-card *:data-[slot=alert-description]:text-destructive/90 *:[svg]:text-current\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n    },\n  }\n);\n\ninterface AlertProps\n  extends\n    JSX.HTMLAttributes<HTMLDivElement>,\n    VariantProps<typeof alertVariants> {}\n\nfunction Alert(props: AlertProps) {\n  const [local, rest] = splitProps(props, [\"class\", \"variant\"]);\n\n  return (\n    <div\n      data-slot=\"alert\"\n      role=\"alert\"\n      class={cn(alertVariants({ variant: local.variant }), local.class)}\n      {...rest}\n    />\n  );\n}\n\n/* -------------------------------------------------------------------------------------------------\n * AlertTitle\n * -----------------------------------------------------------------------------------------------*/\n\ninterface AlertTitleProps extends JSX.HTMLAttributes<HTMLDivElement> {}\n\nfunction AlertTitle(props: AlertTitleProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <div\n      data-slot=\"alert-title\"\n      class={cn(\n        \"[&_a]:hover:text-foreground font-medium group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\n/* -------------------------------------------------------------------------------------------------\n * AlertDescription\n * -----------------------------------------------------------------------------------------------*/\n\ninterface AlertDescriptionProps extends JSX.HTMLAttributes<HTMLDivElement> {}\n\nfunction AlertDescription(props: AlertDescriptionProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <div\n      data-slot=\"alert-description\"\n      class={cn(\n        \"text-muted-foreground [&_a]:hover:text-foreground text-sm text-balance md:text-pretty [&_a]:underline [&_a]:underline-offset-3 [&_p:not(:last-child)]:mb-4\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\nexport { Alert, AlertTitle, AlertDescription, alertVariants };\nexport type { AlertProps, AlertTitleProps, AlertDescriptionProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/alert.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Alert, AlertTitle, AlertDescription, alertVariants } from './alert';\nexport type { AlertProps, AlertTitleProps, AlertDescriptionProps } from './alert';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

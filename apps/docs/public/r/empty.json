@@ -1,0 +1,24 @@
+{
+  "name": "empty",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "empty.tsx",
+      "content": "import { type Component, type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\n/* ---------------------------------- Empty --------------------------------- */\n\nconst Empty: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"empty\"\n      class={cn(\n        \"flex w-full min-w-0 flex-1 flex-col items-center justify-center gap-4 rounded-xl border-dashed p-6 text-center text-balance\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* -------------------------------- EmptyIcon ------------------------------- */\n\nconst EmptyIcon: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"empty-icon\"\n      class={cn(\"text-muted-foreground [&_svg]:size-12\", local.class)}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------- EmptyTitle ------------------------------- */\n\nconst EmptyTitle: Component<JSX.HTMLAttributes<HTMLHeadingElement>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <h3\n      data-slot=\"empty-title\"\n      class={cn(\"text-sm font-medium tracking-tight\", local.class)}\n      {...rest}\n    />\n  );\n};\n\n/* ----------------------------- EmptyDescription --------------------------- */\n\nconst EmptyDescription: Component<JSX.HTMLAttributes<HTMLParagraphElement>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <p\n      data-slot=\"empty-description\"\n      class={cn(\n        \"text-muted-foreground [&>a:hover]:text-primary text-sm/relaxed [&>a]:underline [&>a]:underline-offset-4\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\n/* ------------------------------ EmptyAction ------------------------------- */\n\nconst EmptyAction: Component<JSX.HTMLAttributes<HTMLDivElement>> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <div\n      data-slot=\"empty-action\"\n      class={cn(\n        \"flex w-full max-w-sm min-w-0 flex-col items-center gap-2.5 text-sm text-balance\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n};\n\nexport { Empty, EmptyIcon, EmptyTitle, EmptyDescription, EmptyAction };\n",
+      "type": "registry:ui",
+      "target": "components/ui/empty.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { Empty, EmptyIcon, EmptyTitle, EmptyDescription, EmptyAction } from './empty';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

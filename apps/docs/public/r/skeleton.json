@@ -1,0 +1,24 @@
+{
+  "name": "skeleton",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "index.ts",
+      "content": "export { Skeleton } from './skeleton';\nexport type { SkeletonProps } from './skeleton';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    },
+    {
+      "path": "skeleton.tsx",
+      "content": "import { type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\ninterface SkeletonProps extends JSX.HTMLAttributes<HTMLDivElement> {}\n\nfunction Skeleton(props: SkeletonProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <div\n      data-slot=\"skeleton\"\n      class={cn(\"bg-muted animate-pulse rounded-md\", local.class)}\n      {...rest}\n    />\n  );\n}\n\nexport { Skeleton };\nexport type { SkeletonProps };\n",
+      "type": "registry:ui",
+      "target": "components/ui/skeleton.tsx"
+    }
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}

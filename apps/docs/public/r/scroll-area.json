@@ -1,0 +1,27 @@
+{
+  "name": "scroll-area",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "scroll-area.tsx",
+      "content": "import {\n  type Component,\n  type ComponentProps,\n  type JSX,\n  splitProps,\n} from \"solid-js\";\nimport * as ScrollAreaPrimitive from \"@radix-solid/scroll-area\";\nimport { cn } from \"~/lib/utils\";\n\nconst ScrollArea: Component<\n  ComponentProps<typeof ScrollAreaPrimitive.Root> & { children?: JSX.Element }\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\", \"children\"]);\n  return (\n    <ScrollAreaPrimitive.Root\n      data-slot=\"scroll-area\"\n      class={cn(\"relative\", local.class)}\n      {...rest}\n    >\n      <ScrollAreaPrimitive.Viewport class=\"focus-visible:ring-ring/50 size-full rounded-[inherit] transition-[color,box-shadow] outline-none focus-visible:ring-[3px] focus-visible:outline-1\">\n        {local.children}\n      </ScrollAreaPrimitive.Viewport>\n      <ScrollBar />\n      <ScrollAreaPrimitive.Corner />\n    </ScrollAreaPrimitive.Root>\n  );\n};\n\nconst ScrollBar: Component<\n  ComponentProps<typeof ScrollAreaPrimitive.Scrollbar>\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\", \"orientation\"]);\n  return (\n    <ScrollAreaPrimitive.Scrollbar\n      data-slot=\"scroll-bar\"\n      orientation={local.orientation ?? \"vertical\"}\n      class={cn(\n        \"flex touch-none p-px transition-colors select-none\",\n        (local.orientation ?? \"vertical\") === \"vertical\" &&\n          \"h-full w-2.5 border-l border-l-transparent\",\n        local.orientation === \"horizontal\" &&\n          \"h-2.5 flex-col border-t border-t-transparent\",\n        local.class\n      )}\n      {...rest}\n    >\n      <ScrollAreaPrimitive.Thumb class=\"bg-border relative flex-1 rounded-full\" />\n    </ScrollAreaPrimitive.Scrollbar>\n  );\n};\n\nexport { ScrollArea, ScrollBar };\n",
+      "type": "registry:ui",
+      "target": "components/ui/scroll-area.tsx"
+    },
+    {
+      "path": "index.ts",
+      "content": "export { ScrollArea, ScrollBar } from './scroll-area';\n",
+      "type": "registry:ui",
+      "target": "components/ui/index.ts"
+    }
+  ],
+  "dependencies": [
+    "@radix-solid/scroll-area@workspace:*"
+  ],
+  "devDependencies": [
+    "tsup@^8.3.6",
+    "typescript@^5.7.3",
+    "solid-js@^1.9.3",
+    "vitest@^2.1.8"
+  ]
+}
