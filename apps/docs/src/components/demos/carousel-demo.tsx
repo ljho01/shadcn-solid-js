@@ -1,12 +1,12 @@
 import { For } from "solid-js";
-import { Card, CardContent } from "@shadcn-solid/card";
+import { Card, CardContent } from "@shadcn-solid-js/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@shadcn-solid/carousel";
+} from "@shadcn-solid-js/carousel";
 
 export default function CarouselDemo() {
   return (

@@ -6,17 +6,17 @@ import {
   splitProps,
   Show,
 } from "solid-js";
-import { composeEventHandlers } from "@radix-solid/primitive";
-import { mergeRefs } from "@radix-solid/compose-refs";
-import { createContextScope, type Scope } from "@radix-solid/context";
-import { DismissableLayer } from "@radix-solid/dismissable-layer";
-import { useFocusGuards } from "@radix-solid/focus-guards";
-import { FocusScope } from "@radix-solid/focus-scope";
-import { createId } from "@radix-solid/id";
-import { Portal as PortalPrimitive } from "@radix-solid/portal";
-import { Presence, usePresenceContext } from "@radix-solid/presence";
-import { Primitive } from "@radix-solid/primitive-component";
-import { createControllableSignal } from "@radix-solid/use-controllable-state";
+import { composeEventHandlers } from "@radix-solid-js/primitive";
+import { mergeRefs } from "@radix-solid-js/compose-refs";
+import { createContextScope, type Scope } from "@radix-solid-js/context";
+import { DismissableLayer } from "@radix-solid-js/dismissable-layer";
+import { useFocusGuards } from "@radix-solid-js/focus-guards";
+import { FocusScope } from "@radix-solid-js/focus-scope";
+import { createId } from "@radix-solid-js/id";
+import { Portal as PortalPrimitive } from "@radix-solid-js/portal";
+import { Presence, usePresenceContext } from "@radix-solid-js/presence";
+import { Primitive } from "@radix-solid-js/primitive-component";
+import { createControllableSignal } from "@radix-solid-js/use-controllable-state";
 import { hideOthers } from "aria-hidden";
 
 /* -------------------------------------------------------------------------------------------------

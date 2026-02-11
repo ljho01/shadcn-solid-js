@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/accordion",
+  "name": "@shadcn-solid-js/accordion",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/accordion": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/accordion": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

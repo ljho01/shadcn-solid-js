@@ -1,5 +1,5 @@
 import { type JSX, splitProps } from 'solid-js';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
 /* -------------------------------------------------------------------------------------------------
  * Label

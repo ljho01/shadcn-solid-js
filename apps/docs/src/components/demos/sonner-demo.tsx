@@ -1,8 +1,8 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 
 export default function SonnerDemo() {
   const handleClick = async () => {
-    const { toast } = await import("@shadcn-solid/sonner");
+    const { toast } = await import("@shadcn-solid-js/sonner");
     toast("Event has been created", {
       description: "Sunday, December 03, 2023 at 9:00 AM",
       action: {

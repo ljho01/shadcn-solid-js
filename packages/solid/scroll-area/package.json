@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/scroll-area",
+  "name": "@radix-solid-js/scroll-area",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,13 +29,13 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/number": "workspace:*",
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/direction": "workspace:*",
-    "@radix-solid/presence": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*"
+    "@radix-solid-js/number": "workspace:*",
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/direction": "workspace:*",
+    "@radix-solid-js/presence": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as MenubarPrimitive from "@radix-solid/menubar";
-import { cn } from "@shadcn-solid/utils";
+import * as MenubarPrimitive from "@radix-solid-js/menubar";
+import { cn } from "@shadcn-solid-js/utils";
 
 const MenubarMenu = MenubarPrimitive.Menu;
 

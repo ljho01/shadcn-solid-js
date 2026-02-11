@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as ContextMenuPrimitive from "@radix-solid/context-menu";
-import { cn } from "@shadcn-solid/utils";
+import * as ContextMenuPrimitive from "@radix-solid-js/context-menu";
+import { cn } from "@shadcn-solid-js/utils";
 
 const ContextMenu = ContextMenuPrimitive.Root;
 

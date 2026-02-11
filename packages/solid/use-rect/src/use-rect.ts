@@ -1,5 +1,5 @@
 import { createSignal, createEffect, onCleanup } from 'solid-js';
-import { observeElementRect, type Measurable } from '@radix-solid/rect';
+import { observeElementRect, type Measurable } from '@radix-solid-js/rect';
 
 /**
  * Tracks an element's bounding rect (getBoundingClientRect) over time.

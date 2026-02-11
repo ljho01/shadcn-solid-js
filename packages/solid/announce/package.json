@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/announce",
+  "name": "@radix-solid-js/announce",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -28,8 +28,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*"
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

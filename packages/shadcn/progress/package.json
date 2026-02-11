@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/progress",
+  "name": "@shadcn-solid-js/progress",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/progress": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/progress": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

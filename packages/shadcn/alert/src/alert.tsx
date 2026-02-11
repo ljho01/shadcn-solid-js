@@ -1,6 +1,6 @@
 import { type JSX, splitProps } from "solid-js";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@shadcn-solid/utils";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* -------------------------------------------------------------------------------------------------
  * Alert

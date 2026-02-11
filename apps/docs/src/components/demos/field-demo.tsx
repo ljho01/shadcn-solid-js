@@ -1,5 +1,5 @@
-import { Input } from "@shadcn-solid/input";
-import { Label } from "@shadcn-solid/label";
+import { Input } from "@shadcn-solid-js/input";
+import { Label } from "@shadcn-solid-js/label";
 
 export default function FieldDemo() {
   return (

@@ -4,8 +4,8 @@ import {
   EmptyTitle,
   EmptyDescription,
   EmptyAction,
-} from "@shadcn-solid/empty";
-import { Button } from "@shadcn-solid/button";
+} from "@shadcn-solid-js/empty";
+import { Button } from "@shadcn-solid-js/button";
 
 export default function EmptyDemo() {
   return (

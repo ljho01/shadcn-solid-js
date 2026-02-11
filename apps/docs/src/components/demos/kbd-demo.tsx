@@ -1,4 +1,4 @@
-import { Kbd } from "@shadcn-solid/kbd";
+import { Kbd } from "@shadcn-solid-js/kbd";
 
 export default function KbdDemo() {
   return (

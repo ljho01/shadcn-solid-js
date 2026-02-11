@@ -1,5 +1,5 @@
 import { createSignal, onMount } from "solid-js";
-import { Progress } from "@shadcn-solid/progress";
+import { Progress } from "@shadcn-solid-js/progress";
 
 export default function ProgressDemo() {
   const [progress, setProgress] = createSignal(13);

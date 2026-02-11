@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/toolbar",
+  "name": "@radix-solid-js/toolbar",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,13 +29,13 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/direction": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/roving-focus": "workspace:*",
-    "@radix-solid/separator": "workspace:*",
-    "@radix-solid/toggle-group": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/direction": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/roving-focus": "workspace:*",
+    "@radix-solid-js/separator": "workspace:*",
+    "@radix-solid-js/toggle-group": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

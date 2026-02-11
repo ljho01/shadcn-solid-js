@@ -6,7 +6,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@shadcn-solid/navigation-menu";
+} from "@shadcn-solid-js/navigation-menu";
 
 const components: { title: string; href: string; description: string }[] = [
   {

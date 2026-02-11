@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as AccordionPrimitive from "@radix-solid/accordion";
-import { cn } from "@shadcn-solid/utils";
+import * as AccordionPrimitive from "@radix-solid-js/accordion";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Accordion: Component<ComponentProps<typeof AccordionPrimitive.Root>> = (
   props

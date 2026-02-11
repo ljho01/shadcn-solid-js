@@ -10,13 +10,13 @@
     },
     {
       "path": "collapsible.tsx",
-      "content": "import * as CollapsiblePrimitive from '@radix-solid/collapsible';\n\nconst Collapsible = CollapsiblePrimitive.Root;\n\nconst CollapsibleTrigger = CollapsiblePrimitive.Trigger;\n\nconst CollapsibleContent = CollapsiblePrimitive.Content;\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent };\n",
+      "content": "import * as CollapsiblePrimitive from '@radix-solid-js/collapsible';\n\nconst Collapsible = CollapsiblePrimitive.Root;\n\nconst CollapsibleTrigger = CollapsiblePrimitive.Trigger;\n\nconst CollapsibleContent = CollapsiblePrimitive.Content;\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent };\n",
       "type": "registry:ui",
       "target": "components/ui/collapsible.tsx"
     }
   ],
   "dependencies": [
-    "@radix-solid/collapsible@workspace:*"
+    "@radix-solid-js/collapsible@workspace:*"
   ],
   "devDependencies": [
     "tsup@^8.3.6",

@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/separator",
+  "name": "@radix-solid-js/separator",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,7 +29,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive-component": "workspace:*"
+    "@radix-solid-js/primitive-component": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

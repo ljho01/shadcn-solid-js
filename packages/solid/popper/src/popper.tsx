@@ -19,12 +19,12 @@ import {
   type Placement,
   type Middleware,
 } from "@floating-ui/dom";
-import { Arrow as ArrowPrimitive } from "@radix-solid/arrow";
-import { mergeRefs } from "@radix-solid/compose-refs";
-import { createContextScope, type Scope } from "@radix-solid/context";
-import { usePresenceContext } from "@radix-solid/presence";
-import { Primitive } from "@radix-solid/primitive-component";
-import { createElementSize } from "@radix-solid/use-size";
+import { Arrow as ArrowPrimitive } from "@radix-solid-js/arrow";
+import { mergeRefs } from "@radix-solid-js/compose-refs";
+import { createContextScope, type Scope } from "@radix-solid-js/context";
+import { usePresenceContext } from "@radix-solid-js/presence";
+import { Primitive } from "@radix-solid-js/primitive-component";
+import { createElementSize } from "@radix-solid-js/use-size";
 
 type Measurable = { getBoundingClientRect(): DOMRect };
 

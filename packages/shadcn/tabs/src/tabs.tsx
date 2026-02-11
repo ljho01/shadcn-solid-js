@@ -1,7 +1,7 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as TabsPrimitive from "@radix-solid/tabs";
+import * as TabsPrimitive from "@radix-solid-js/tabs";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@shadcn-solid/utils";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Tabs: Component<ComponentProps<typeof TabsPrimitive.Root>> = (props) => {
   const [local, rest] = splitProps(props, ["class", "orientation"]);

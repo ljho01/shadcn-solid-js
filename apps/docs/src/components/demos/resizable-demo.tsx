@@ -2,7 +2,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@shadcn-solid/resizable";
+} from "@shadcn-solid-js/resizable";
 
 export default function ResizableDemo() {
   return (

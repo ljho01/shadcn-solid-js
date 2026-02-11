@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as OTPFieldPrimitive from "@radix-solid/one-time-password-field";
-import { cn } from "@shadcn-solid/utils";
+import * as OTPFieldPrimitive from "@radix-solid-js/one-time-password-field";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* -------------------------------------------------------------------------------------------------
  * InputOTP — Root wrapper
@@ -114,4 +114,4 @@ export type {
 };
 
 // Re-export HiddenInput from primitive for form usage
-export { OneTimePasswordFieldHiddenInput as InputOTPHiddenInput } from "@radix-solid/one-time-password-field";
+export { OneTimePasswordFieldHiddenInput as InputOTPHiddenInput } from "@radix-solid-js/one-time-password-field";

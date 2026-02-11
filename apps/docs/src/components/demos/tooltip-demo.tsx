@@ -1,10 +1,10 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   TooltipProvider,
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@shadcn-solid/tooltip";
+} from "@shadcn-solid-js/tooltip";
 
 export default function TooltipDemo() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/one-time-password-field",
+  "name": "@radix-solid-js/one-time-password-field",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,7 +29,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/number": "workspace:*"
+    "@radix-solid-js/number": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

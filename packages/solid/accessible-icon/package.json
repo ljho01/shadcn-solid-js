@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/accessible-icon",
+  "name": "@radix-solid-js/accessible-icon",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,7 +29,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/visually-hidden": "workspace:*"
+    "@radix-solid-js/visually-hidden": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

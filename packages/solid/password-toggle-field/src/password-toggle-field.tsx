@@ -7,14 +7,14 @@ import {
   splitProps,
   batch,
 } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope } from '@radix-solid/context';
-import { createId } from '@radix-solid/id';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope } from '@radix-solid-js/context';
+import { createId } from '@radix-solid-js/id';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * PasswordToggleField

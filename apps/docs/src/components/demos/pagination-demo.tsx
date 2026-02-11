@@ -6,7 +6,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@shadcn-solid/pagination";
+} from "@shadcn-solid-js/pagination";
 
 export default function PaginationDemo() {
   return (

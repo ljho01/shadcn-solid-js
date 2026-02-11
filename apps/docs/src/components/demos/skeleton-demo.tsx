@@ -1,4 +1,4 @@
-import { Skeleton } from "@shadcn-solid/skeleton";
+import { Skeleton } from "@shadcn-solid-js/skeleton";
 
 export default function SkeletonDemo() {
   return (

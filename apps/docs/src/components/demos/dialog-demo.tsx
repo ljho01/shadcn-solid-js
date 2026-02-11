@@ -1,4 +1,4 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   Dialog,
   DialogClose,
@@ -8,9 +8,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@shadcn-solid/dialog";
-import { Input } from "@shadcn-solid/input";
-import { Label } from "@shadcn-solid/label";
+} from "@shadcn-solid-js/dialog";
+import { Input } from "@shadcn-solid-js/input";
+import { Label } from "@shadcn-solid-js/label";
 
 export default function DialogDemo() {
   return (

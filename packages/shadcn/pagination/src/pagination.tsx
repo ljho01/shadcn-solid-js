@@ -1,6 +1,6 @@
 import { type JSX, splitProps } from "solid-js";
-import { cn } from "@shadcn-solid/utils";
-import { type ButtonProps, buttonVariants } from "@shadcn-solid/button";
+import { cn } from "@shadcn-solid-js/utils";
+import { type ButtonProps, buttonVariants } from "@shadcn-solid-js/button";
 
 /* -------------------------------------------------------------------------------------------------
  * Pagination

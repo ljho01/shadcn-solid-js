@@ -8,23 +8,23 @@ import {
   createContext,
   useContext,
 } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { DismissableLayer } from '@radix-solid/dismissable-layer';
-import { createId } from '@radix-solid/id';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { DismissableLayer } from '@radix-solid-js/dismissable-layer';
+import { createId } from '@radix-solid-js/id';
 import {
   createPopperScope,
   Popper,
   PopperAnchor,
   PopperContent,
   PopperArrow,
-} from '@radix-solid/popper';
-import { Portal } from '@radix-solid/portal';
-import { Presence } from '@radix-solid/presence';
-import { Primitive } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { VisuallyHidden } from '@radix-solid/visually-hidden';
+} from '@radix-solid-js/popper';
+import { Portal } from '@radix-solid-js/portal';
+import { Presence } from '@radix-solid-js/presence';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { VisuallyHidden } from '@radix-solid-js/visually-hidden';
 
 /* -------------------------------------------------------------------------------------------------
  * TooltipProvider

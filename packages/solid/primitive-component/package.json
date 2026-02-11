@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/primitive-component",
+  "name": "@radix-solid-js/primitive-component",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -31,7 +31,7 @@
     "solid-js": "^1.8.0"
   },
   "dependencies": {
-    "@radix-solid/slot": "workspace:*"
+    "@radix-solid-js/slot": "workspace:*"
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",

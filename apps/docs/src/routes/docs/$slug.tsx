@@ -88,7 +88,7 @@ function ComponentDocPage() {
                   Or install as a package
                 </summary>
                 <div class="mt-3 pl-5">
-                  <CodeBlock code={`bun add @shadcn-solid/${comp().slug}`} />
+                  <CodeBlock code={`bun add @shadcn-solid-js/${comp().slug}`} />
                 </div>
               </details>
             </div>
@@ -259,7 +259,7 @@ function getUsageCode(slug: string, name: string): string {
   const importName = name.replace(/\s+/g, "");
 
   const usageCodes: Record<string, string> = {
-    button: `import { Button } from '@shadcn-solid/button'
+    button: `import { Button } from '@shadcn-solid-js/button'
 
 export function MyComponent() {
   return <Button variant="outline">Button</Button>
@@ -267,7 +267,7 @@ export function MyComponent() {
     card: `import {
   Card, CardHeader, CardTitle,
   CardDescription, CardContent, CardFooter,
-} from '@shadcn-solid/card'
+} from '@shadcn-solid-js/card'
 
 export function MyComponent() {
   return (
@@ -288,8 +288,8 @@ export function MyComponent() {
     dialog: `import {
   Dialog, DialogTrigger, DialogContent,
   DialogHeader, DialogTitle, DialogDescription,
-} from '@shadcn-solid/dialog'
-import { Button } from '@shadcn-solid/button'
+} from '@shadcn-solid-js/dialog'
+import { Button } from '@shadcn-solid-js/button'
 
 export function MyComponent() {
   return (
@@ -308,14 +308,14 @@ export function MyComponent() {
     </Dialog>
   )
 }`,
-    input: `import { Input } from '@shadcn-solid/input'
+    input: `import { Input } from '@shadcn-solid-js/input'
 
 export function MyComponent() {
   return <Input type="email" placeholder="Email" />
 }`,
     tabs: `import {
   Tabs, TabsList, TabsTrigger, TabsContent,
-} from '@shadcn-solid/tabs'
+} from '@shadcn-solid-js/tabs'
 
 export function MyComponent() {
   return (
@@ -333,7 +333,7 @@ export function MyComponent() {
 
   return (
     usageCodes[slug] ??
-    `import { ${importName} } from '@shadcn-solid/${slug}'
+    `import { ${importName} } from '@shadcn-solid-js/${slug}'
 
 export function MyComponent() {
   return <${importName} />

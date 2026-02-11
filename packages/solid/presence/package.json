@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/presence",
+  "name": "@radix-solid-js/presence",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -28,7 +28,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@radix-solid/compose-refs": "workspace:*"
+    "@radix-solid-js/compose-refs": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -38,62 +38,62 @@
       "name": "@repo/docs",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/accordion": "workspace:*",
-        "@shadcn-solid/alert": "workspace:*",
-        "@shadcn-solid/alert-dialog": "workspace:*",
-        "@shadcn-solid/aspect-ratio": "workspace:*",
-        "@shadcn-solid/avatar": "workspace:*",
-        "@shadcn-solid/badge": "workspace:*",
-        "@shadcn-solid/breadcrumb": "workspace:*",
-        "@shadcn-solid/button": "workspace:*",
-        "@shadcn-solid/button-group": "workspace:*",
-        "@shadcn-solid/calendar": "workspace:*",
-        "@shadcn-solid/card": "workspace:*",
-        "@shadcn-solid/carousel": "workspace:*",
-        "@shadcn-solid/chart": "workspace:*",
-        "@shadcn-solid/checkbox": "workspace:*",
-        "@shadcn-solid/collapsible": "workspace:*",
-        "@shadcn-solid/combobox": "workspace:*",
-        "@shadcn-solid/command": "workspace:*",
-        "@shadcn-solid/context-menu": "workspace:*",
-        "@shadcn-solid/dialog": "workspace:*",
-        "@shadcn-solid/drawer": "workspace:*",
-        "@shadcn-solid/dropdown-menu": "workspace:*",
-        "@shadcn-solid/empty": "workspace:*",
-        "@shadcn-solid/field": "workspace:*",
-        "@shadcn-solid/form": "workspace:*",
-        "@shadcn-solid/hover-card": "workspace:*",
-        "@shadcn-solid/input": "workspace:*",
-        "@shadcn-solid/input-group": "workspace:*",
-        "@shadcn-solid/input-otp": "workspace:*",
-        "@shadcn-solid/item": "workspace:*",
-        "@shadcn-solid/kbd": "workspace:*",
-        "@shadcn-solid/label": "workspace:*",
-        "@shadcn-solid/menubar": "workspace:*",
-        "@shadcn-solid/native-select": "workspace:*",
-        "@shadcn-solid/navigation-menu": "workspace:*",
-        "@shadcn-solid/pagination": "workspace:*",
-        "@shadcn-solid/popover": "workspace:*",
-        "@shadcn-solid/progress": "workspace:*",
-        "@shadcn-solid/radio-group": "workspace:*",
-        "@shadcn-solid/resizable": "workspace:*",
-        "@shadcn-solid/scroll-area": "workspace:*",
-        "@shadcn-solid/select": "workspace:*",
-        "@shadcn-solid/separator": "workspace:*",
-        "@shadcn-solid/sheet": "workspace:*",
-        "@shadcn-solid/sidebar": "workspace:*",
-        "@shadcn-solid/skeleton": "workspace:*",
-        "@shadcn-solid/slider": "workspace:*",
-        "@shadcn-solid/sonner": "workspace:*",
-        "@shadcn-solid/spinner": "workspace:*",
-        "@shadcn-solid/switch": "workspace:*",
-        "@shadcn-solid/table": "workspace:*",
-        "@shadcn-solid/tabs": "workspace:*",
-        "@shadcn-solid/textarea": "workspace:*",
-        "@shadcn-solid/toggle": "workspace:*",
-        "@shadcn-solid/toggle-group": "workspace:*",
-        "@shadcn-solid/tooltip": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/accordion": "workspace:*",
+        "@shadcn-solid-js/alert": "workspace:*",
+        "@shadcn-solid-js/alert-dialog": "workspace:*",
+        "@shadcn-solid-js/aspect-ratio": "workspace:*",
+        "@shadcn-solid-js/avatar": "workspace:*",
+        "@shadcn-solid-js/badge": "workspace:*",
+        "@shadcn-solid-js/breadcrumb": "workspace:*",
+        "@shadcn-solid-js/button": "workspace:*",
+        "@shadcn-solid-js/button-group": "workspace:*",
+        "@shadcn-solid-js/calendar": "workspace:*",
+        "@shadcn-solid-js/card": "workspace:*",
+        "@shadcn-solid-js/carousel": "workspace:*",
+        "@shadcn-solid-js/chart": "workspace:*",
+        "@shadcn-solid-js/checkbox": "workspace:*",
+        "@shadcn-solid-js/collapsible": "workspace:*",
+        "@shadcn-solid-js/combobox": "workspace:*",
+        "@shadcn-solid-js/command": "workspace:*",
+        "@shadcn-solid-js/context-menu": "workspace:*",
+        "@shadcn-solid-js/dialog": "workspace:*",
+        "@shadcn-solid-js/drawer": "workspace:*",
+        "@shadcn-solid-js/dropdown-menu": "workspace:*",
+        "@shadcn-solid-js/empty": "workspace:*",
+        "@shadcn-solid-js/field": "workspace:*",
+        "@shadcn-solid-js/form": "workspace:*",
+        "@shadcn-solid-js/hover-card": "workspace:*",
+        "@shadcn-solid-js/input": "workspace:*",
+        "@shadcn-solid-js/input-group": "workspace:*",
+        "@shadcn-solid-js/input-otp": "workspace:*",
+        "@shadcn-solid-js/item": "workspace:*",
+        "@shadcn-solid-js/kbd": "workspace:*",
+        "@shadcn-solid-js/label": "workspace:*",
+        "@shadcn-solid-js/menubar": "workspace:*",
+        "@shadcn-solid-js/native-select": "workspace:*",
+        "@shadcn-solid-js/navigation-menu": "workspace:*",
+        "@shadcn-solid-js/pagination": "workspace:*",
+        "@shadcn-solid-js/popover": "workspace:*",
+        "@shadcn-solid-js/progress": "workspace:*",
+        "@shadcn-solid-js/radio-group": "workspace:*",
+        "@shadcn-solid-js/resizable": "workspace:*",
+        "@shadcn-solid-js/scroll-area": "workspace:*",
+        "@shadcn-solid-js/select": "workspace:*",
+        "@shadcn-solid-js/separator": "workspace:*",
+        "@shadcn-solid-js/sheet": "workspace:*",
+        "@shadcn-solid-js/sidebar": "workspace:*",
+        "@shadcn-solid-js/skeleton": "workspace:*",
+        "@shadcn-solid-js/slider": "workspace:*",
+        "@shadcn-solid-js/sonner": "workspace:*",
+        "@shadcn-solid-js/spinner": "workspace:*",
+        "@shadcn-solid-js/switch": "workspace:*",
+        "@shadcn-solid-js/table": "workspace:*",
+        "@shadcn-solid-js/tabs": "workspace:*",
+        "@shadcn-solid-js/textarea": "workspace:*",
+        "@shadcn-solid-js/toggle": "workspace:*",
+        "@shadcn-solid-js/toggle-group": "workspace:*",
+        "@shadcn-solid-js/tooltip": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "@tanstack/solid-router": "^1.159.5",
         "@tanstack/solid-start": "^1.159.5",
         "class-variance-authority": "^0.7.1",
@@ -132,7 +132,7 @@
       "version": "0.0.0",
     },
     "packages/cli": {
-      "name": "shadcn-solid",
+      "name": "shadcn-solid-js",
       "version": "0.1.0",
       "bin": "./dist/index.js",
       "dependencies": {
@@ -155,7 +155,7 @@
       },
     },
     "packages/core/number": {
-      "name": "@radix-solid/number",
+      "name": "@radix-solid-js/number",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -164,7 +164,7 @@
       },
     },
     "packages/core/primitive": {
-      "name": "@radix-solid/primitive",
+      "name": "@radix-solid-js/primitive",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -173,7 +173,7 @@
       },
     },
     "packages/core/rect": {
-      "name": "@radix-solid/rect",
+      "name": "@radix-solid-js/rect",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -182,11 +182,11 @@
       },
     },
     "packages/shadcn/accordion": {
-      "name": "@shadcn-solid/accordion",
+      "name": "@shadcn-solid-js/accordion",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/accordion": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/accordion": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -200,10 +200,10 @@
       },
     },
     "packages/shadcn/alert": {
-      "name": "@shadcn-solid/alert",
+      "name": "@shadcn-solid-js/alert",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -218,12 +218,12 @@
       },
     },
     "packages/shadcn/alert-dialog": {
-      "name": "@shadcn-solid/alert-dialog",
+      "name": "@shadcn-solid-js/alert-dialog",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/alert-dialog": "workspace:*",
-        "@shadcn-solid/button": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/alert-dialog": "workspace:*",
+        "@shadcn-solid-js/button": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -237,11 +237,11 @@
       },
     },
     "packages/shadcn/aspect-ratio": {
-      "name": "@shadcn-solid/aspect-ratio",
+      "name": "@shadcn-solid-js/aspect-ratio",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/aspect-ratio": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/aspect-ratio": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -255,11 +255,11 @@
       },
     },
     "packages/shadcn/avatar": {
-      "name": "@shadcn-solid/avatar",
+      "name": "@shadcn-solid-js/avatar",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/avatar": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/avatar": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -273,10 +273,10 @@
       },
     },
     "packages/shadcn/badge": {
-      "name": "@shadcn-solid/badge",
+      "name": "@shadcn-solid-js/badge",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -291,10 +291,10 @@
       },
     },
     "packages/shadcn/breadcrumb": {
-      "name": "@shadcn-solid/breadcrumb",
+      "name": "@shadcn-solid-js/breadcrumb",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -308,10 +308,10 @@
       },
     },
     "packages/shadcn/button": {
-      "name": "@shadcn-solid/button",
+      "name": "@shadcn-solid-js/button",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -326,10 +326,10 @@
       },
     },
     "packages/shadcn/button-group": {
-      "name": "@shadcn-solid/button-group",
+      "name": "@shadcn-solid-js/button-group",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -343,10 +343,10 @@
       },
     },
     "packages/shadcn/calendar": {
-      "name": "@shadcn-solid/calendar",
+      "name": "@shadcn-solid-js/calendar",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -360,10 +360,10 @@
       },
     },
     "packages/shadcn/card": {
-      "name": "@shadcn-solid/card",
+      "name": "@shadcn-solid-js/card",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -377,10 +377,10 @@
       },
     },
     "packages/shadcn/carousel": {
-      "name": "@shadcn-solid/carousel",
+      "name": "@shadcn-solid-js/carousel",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -394,10 +394,10 @@
       },
     },
     "packages/shadcn/chart": {
-      "name": "@shadcn-solid/chart",
+      "name": "@shadcn-solid-js/chart",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -411,11 +411,11 @@
       },
     },
     "packages/shadcn/checkbox": {
-      "name": "@shadcn-solid/checkbox",
+      "name": "@shadcn-solid-js/checkbox",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/checkbox": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/checkbox": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -429,11 +429,11 @@
       },
     },
     "packages/shadcn/collapsible": {
-      "name": "@shadcn-solid/collapsible",
+      "name": "@shadcn-solid-js/collapsible",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collapsible": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/collapsible": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -447,11 +447,11 @@
       },
     },
     "packages/shadcn/combobox": {
-      "name": "@shadcn-solid/combobox",
+      "name": "@shadcn-solid-js/combobox",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/popover": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/popover": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -465,11 +465,11 @@
       },
     },
     "packages/shadcn/command": {
-      "name": "@shadcn-solid/command",
+      "name": "@shadcn-solid-js/command",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/dialog": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -483,11 +483,11 @@
       },
     },
     "packages/shadcn/context-menu": {
-      "name": "@shadcn-solid/context-menu",
+      "name": "@shadcn-solid-js/context-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context-menu": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/context-menu": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -501,11 +501,11 @@
       },
     },
     "packages/shadcn/dialog": {
-      "name": "@shadcn-solid/dialog",
+      "name": "@shadcn-solid-js/dialog",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/dialog": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -519,11 +519,11 @@
       },
     },
     "packages/shadcn/drawer": {
-      "name": "@shadcn-solid/drawer",
+      "name": "@shadcn-solid-js/drawer",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/dialog": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -537,11 +537,11 @@
       },
     },
     "packages/shadcn/dropdown-menu": {
-      "name": "@shadcn-solid/dropdown-menu",
+      "name": "@shadcn-solid-js/dropdown-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/dropdown-menu": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/dropdown-menu": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -555,10 +555,10 @@
       },
     },
     "packages/shadcn/empty": {
-      "name": "@shadcn-solid/empty",
+      "name": "@shadcn-solid-js/empty",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -572,10 +572,10 @@
       },
     },
     "packages/shadcn/field": {
-      "name": "@shadcn-solid/field",
+      "name": "@shadcn-solid-js/field",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -589,12 +589,12 @@
       },
     },
     "packages/shadcn/form": {
-      "name": "@shadcn-solid/form",
+      "name": "@shadcn-solid-js/form",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/form": "workspace:*",
-        "@shadcn-solid/label": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/form": "workspace:*",
+        "@shadcn-solid-js/label": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -608,11 +608,11 @@
       },
     },
     "packages/shadcn/hover-card": {
-      "name": "@shadcn-solid/hover-card",
+      "name": "@shadcn-solid-js/hover-card",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/hover-card": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/hover-card": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -626,10 +626,10 @@
       },
     },
     "packages/shadcn/input": {
-      "name": "@shadcn-solid/input",
+      "name": "@shadcn-solid-js/input",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -643,10 +643,10 @@
       },
     },
     "packages/shadcn/input-group": {
-      "name": "@shadcn-solid/input-group",
+      "name": "@shadcn-solid-js/input-group",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -660,11 +660,11 @@
       },
     },
     "packages/shadcn/input-otp": {
-      "name": "@shadcn-solid/input-otp",
+      "name": "@shadcn-solid-js/input-otp",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/one-time-password-field": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/one-time-password-field": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -678,10 +678,10 @@
       },
     },
     "packages/shadcn/item": {
-      "name": "@shadcn-solid/item",
+      "name": "@shadcn-solid-js/item",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -695,10 +695,10 @@
       },
     },
     "packages/shadcn/kbd": {
-      "name": "@shadcn-solid/kbd",
+      "name": "@shadcn-solid-js/kbd",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -712,11 +712,11 @@
       },
     },
     "packages/shadcn/label": {
-      "name": "@shadcn-solid/label",
+      "name": "@shadcn-solid-js/label",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/label": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/label": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -730,11 +730,11 @@
       },
     },
     "packages/shadcn/menubar": {
-      "name": "@shadcn-solid/menubar",
+      "name": "@shadcn-solid-js/menubar",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/menubar": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/menubar": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -748,10 +748,10 @@
       },
     },
     "packages/shadcn/native-select": {
-      "name": "@shadcn-solid/native-select",
+      "name": "@shadcn-solid-js/native-select",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -765,11 +765,11 @@
       },
     },
     "packages/shadcn/navigation-menu": {
-      "name": "@shadcn-solid/navigation-menu",
+      "name": "@shadcn-solid-js/navigation-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/navigation-menu": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/navigation-menu": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -783,11 +783,11 @@
       },
     },
     "packages/shadcn/pagination": {
-      "name": "@shadcn-solid/pagination",
+      "name": "@shadcn-solid-js/pagination",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/button": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/button": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -801,11 +801,11 @@
       },
     },
     "packages/shadcn/popover": {
-      "name": "@shadcn-solid/popover",
+      "name": "@shadcn-solid-js/popover",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/popover": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/popover": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -819,11 +819,11 @@
       },
     },
     "packages/shadcn/progress": {
-      "name": "@shadcn-solid/progress",
+      "name": "@shadcn-solid-js/progress",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/progress": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/progress": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -837,11 +837,11 @@
       },
     },
     "packages/shadcn/radio-group": {
-      "name": "@shadcn-solid/radio-group",
+      "name": "@shadcn-solid-js/radio-group",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/radio-group": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/radio-group": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -855,10 +855,10 @@
       },
     },
     "packages/shadcn/resizable": {
-      "name": "@shadcn-solid/resizable",
+      "name": "@shadcn-solid-js/resizable",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -872,11 +872,11 @@
       },
     },
     "packages/shadcn/scroll-area": {
-      "name": "@shadcn-solid/scroll-area",
+      "name": "@shadcn-solid-js/scroll-area",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/scroll-area": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/scroll-area": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -890,11 +890,11 @@
       },
     },
     "packages/shadcn/select": {
-      "name": "@shadcn-solid/select",
+      "name": "@shadcn-solid-js/select",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/select": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/select": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -908,11 +908,11 @@
       },
     },
     "packages/shadcn/separator": {
-      "name": "@shadcn-solid/separator",
+      "name": "@shadcn-solid-js/separator",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/separator": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/separator": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -926,11 +926,11 @@
       },
     },
     "packages/shadcn/sheet": {
-      "name": "@shadcn-solid/sheet",
+      "name": "@shadcn-solid-js/sheet",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/dialog": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -945,10 +945,10 @@
       },
     },
     "packages/shadcn/sidebar": {
-      "name": "@shadcn-solid/sidebar",
+      "name": "@shadcn-solid-js/sidebar",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -962,10 +962,10 @@
       },
     },
     "packages/shadcn/skeleton": {
-      "name": "@shadcn-solid/skeleton",
+      "name": "@shadcn-solid-js/skeleton",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -979,11 +979,11 @@
       },
     },
     "packages/shadcn/slider": {
-      "name": "@shadcn-solid/slider",
+      "name": "@shadcn-solid-js/slider",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/slider": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/slider": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -997,10 +997,10 @@
       },
     },
     "packages/shadcn/sonner": {
-      "name": "@shadcn-solid/sonner",
+      "name": "@shadcn-solid-js/sonner",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "solid-sonner": "^0.2.8",
       },
       "devDependencies": {
@@ -1015,10 +1015,10 @@
       },
     },
     "packages/shadcn/spinner": {
-      "name": "@shadcn-solid/spinner",
+      "name": "@shadcn-solid-js/spinner",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1032,11 +1032,11 @@
       },
     },
     "packages/shadcn/switch": {
-      "name": "@shadcn-solid/switch",
+      "name": "@shadcn-solid-js/switch",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/switch": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/switch": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1050,10 +1050,10 @@
       },
     },
     "packages/shadcn/table": {
-      "name": "@shadcn-solid/table",
+      "name": "@shadcn-solid-js/table",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1067,11 +1067,11 @@
       },
     },
     "packages/shadcn/tabs": {
-      "name": "@shadcn-solid/tabs",
+      "name": "@shadcn-solid-js/tabs",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/tabs": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/tabs": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -1086,10 +1086,10 @@
       },
     },
     "packages/shadcn/textarea": {
-      "name": "@shadcn-solid/textarea",
+      "name": "@shadcn-solid-js/textarea",
       "version": "0.1.0",
       "dependencies": {
-        "@shadcn-solid/utils": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1103,11 +1103,11 @@
       },
     },
     "packages/shadcn/toggle": {
-      "name": "@shadcn-solid/toggle",
+      "name": "@shadcn-solid-js/toggle",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/toggle": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/toggle": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
         "class-variance-authority": "^0.7.1",
       },
       "devDependencies": {
@@ -1122,12 +1122,12 @@
       },
     },
     "packages/shadcn/toggle-group": {
-      "name": "@shadcn-solid/toggle-group",
+      "name": "@shadcn-solid-js/toggle-group",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/toggle-group": "workspace:*",
-        "@shadcn-solid/toggle": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/toggle-group": "workspace:*",
+        "@shadcn-solid-js/toggle": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1141,11 +1141,11 @@
       },
     },
     "packages/shadcn/tooltip": {
-      "name": "@shadcn-solid/tooltip",
+      "name": "@shadcn-solid-js/tooltip",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/tooltip": "workspace:*",
-        "@shadcn-solid/utils": "workspace:*",
+        "@radix-solid-js/tooltip": "workspace:*",
+        "@shadcn-solid-js/utils": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1159,7 +1159,7 @@
       },
     },
     "packages/shadcn/utils": {
-      "name": "@shadcn-solid/utils",
+      "name": "@shadcn-solid-js/utils",
       "version": "0.1.0",
       "dependencies": {
         "clsx": "^2.1.1",
@@ -1173,10 +1173,10 @@
       },
     },
     "packages/solid/accessible-icon": {
-      "name": "@radix-solid/accessible-icon",
+      "name": "@radix-solid-js/accessible-icon",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1190,18 +1190,18 @@
       },
     },
     "packages/solid/accordion": {
-      "name": "@radix-solid/accordion",
+      "name": "@radix-solid-js/accordion",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collapsible": "workspace:*",
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/collapsible": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1215,15 +1215,15 @@
       },
     },
     "packages/solid/alert-dialog": {
-      "name": "@radix-solid/alert-dialog",
+      "name": "@radix-solid-js/alert-dialog",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dialog": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/slot": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/slot": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1237,11 +1237,11 @@
       },
     },
     "packages/solid/announce": {
-      "name": "@radix-solid/announce",
+      "name": "@radix-solid-js/announce",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1254,10 +1254,10 @@
       },
     },
     "packages/solid/arrow": {
-      "name": "@radix-solid/arrow",
+      "name": "@radix-solid-js/arrow",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1270,10 +1270,10 @@
       },
     },
     "packages/solid/aspect-ratio": {
-      "name": "@radix-solid/aspect-ratio",
+      "name": "@radix-solid-js/aspect-ratio",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1287,11 +1287,11 @@
       },
     },
     "packages/solid/avatar": {
-      "name": "@radix-solid/avatar",
+      "name": "@radix-solid-js/avatar",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1305,17 +1305,17 @@
       },
     },
     "packages/solid/checkbox": {
-      "name": "@radix-solid/checkbox",
+      "name": "@radix-solid-js/checkbox",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/use-size": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/use-size": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1329,16 +1329,16 @@
       },
     },
     "packages/solid/collapsible": {
-      "name": "@radix-solid/collapsible",
+      "name": "@radix-solid-js/collapsible",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1352,12 +1352,12 @@
       },
     },
     "packages/solid/collection": {
-      "name": "@radix-solid/collection",
+      "name": "@radix-solid-js/collection",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/slot": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/slot": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1370,7 +1370,7 @@
       },
     },
     "packages/solid/compose-refs": {
-      "name": "@radix-solid/compose-refs",
+      "name": "@radix-solid-js/compose-refs",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1383,7 +1383,7 @@
       },
     },
     "packages/solid/context": {
-      "name": "@radix-solid/context",
+      "name": "@radix-solid-js/context",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1396,15 +1396,15 @@
       },
     },
     "packages/solid/context-menu": {
-      "name": "@radix-solid/context-menu",
+      "name": "@radix-solid-js/context-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/menu": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/menu": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1418,20 +1418,20 @@
       },
     },
     "packages/solid/dialog": {
-      "name": "@radix-solid/dialog",
+      "name": "@radix-solid-js/dialog",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/focus-guards": "workspace:*",
-        "@radix-solid/focus-scope": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/focus-guards": "workspace:*",
+        "@radix-solid-js/focus-scope": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
         "aria-hidden": "^1.2.6",
         "solid-prevent-scroll": "^0.1.10",
       },
@@ -1447,7 +1447,7 @@
       },
     },
     "packages/solid/direction": {
-      "name": "@radix-solid/direction",
+      "name": "@radix-solid-js/direction",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1460,14 +1460,14 @@
       },
     },
     "packages/solid/dismissable-layer": {
-      "name": "@radix-solid/dismissable-layer",
+      "name": "@radix-solid-js/dismissable-layer",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-escape-keydown": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-escape-keydown": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1480,17 +1480,17 @@
       },
     },
     "packages/solid/dropdown-menu": {
-      "name": "@radix-solid/dropdown-menu",
+      "name": "@radix-solid-js/dropdown-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/menu": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/menu": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1504,7 +1504,7 @@
       },
     },
     "packages/solid/focus-guards": {
-      "name": "@radix-solid/focus-guards",
+      "name": "@radix-solid-js/focus-guards",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1517,11 +1517,11 @@
       },
     },
     "packages/solid/focus-scope": {
-      "name": "@radix-solid/focus-scope",
+      "name": "@radix-solid-js/focus-scope",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1534,15 +1534,15 @@
       },
     },
     "packages/solid/form": {
-      "name": "@radix-solid/form",
+      "name": "@radix-solid-js/form",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/label": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/label": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1556,18 +1556,18 @@
       },
     },
     "packages/solid/hover-card": {
-      "name": "@radix-solid/hover-card",
+      "name": "@radix-solid-js/hover-card",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1581,7 +1581,7 @@
       },
     },
     "packages/solid/id": {
-      "name": "@radix-solid/id",
+      "name": "@radix-solid-js/id",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1595,10 +1595,10 @@
       },
     },
     "packages/solid/label": {
-      "name": "@radix-solid/label",
+      "name": "@radix-solid-js/label",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1612,25 +1612,25 @@
       },
     },
     "packages/solid/menu": {
-      "name": "@radix-solid/menu",
+      "name": "@radix-solid-js/menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/focus-guards": "workspace:*",
-        "@radix-solid/focus-scope": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/slot": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/focus-guards": "workspace:*",
+        "@radix-solid-js/focus-scope": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/slot": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
         "aria-hidden": "^1.2.6",
         "solid-prevent-scroll": "^0.1.10",
       },
@@ -1646,19 +1646,19 @@
       },
     },
     "packages/solid/menubar": {
-      "name": "@radix-solid/menubar",
+      "name": "@radix-solid-js/menubar",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/menu": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/menu": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1672,21 +1672,21 @@
       },
     },
     "packages/solid/navigation-menu": {
-      "name": "@radix-solid/navigation-menu",
+      "name": "@radix-solid-js/navigation-menu",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1700,10 +1700,10 @@
       },
     },
     "packages/solid/one-time-password-field": {
-      "name": "@radix-solid/one-time-password-field",
+      "name": "@radix-solid-js/one-time-password-field",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/number": "workspace:*",
+        "@radix-solid-js/number": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1717,16 +1717,16 @@
       },
     },
     "packages/solid/password-toggle-field": {
-      "name": "@radix-solid/password-toggle-field",
+      "name": "@radix-solid-js/password-toggle-field",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-effect-event": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-effect-event": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1740,21 +1740,21 @@
       },
     },
     "packages/solid/popover": {
-      "name": "@radix-solid/popover",
+      "name": "@radix-solid-js/popover",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/focus-guards": "workspace:*",
-        "@radix-solid/focus-scope": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/focus-guards": "workspace:*",
+        "@radix-solid-js/focus-scope": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
         "aria-hidden": "^1.2.6",
         "solid-prevent-scroll": "^0.1.10",
       },
@@ -1770,16 +1770,16 @@
       },
     },
     "packages/solid/popper": {
-      "name": "@radix-solid/popper",
+      "name": "@radix-solid-js/popper",
       "version": "0.1.0",
       "dependencies": {
         "@floating-ui/dom": "^1.6.0",
-        "@radix-solid/arrow": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-size": "workspace:*",
+        "@radix-solid-js/arrow": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-size": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1792,10 +1792,10 @@
       },
     },
     "packages/solid/portal": {
-      "name": "@radix-solid/portal",
+      "name": "@radix-solid-js/portal",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1808,10 +1808,10 @@
       },
     },
     "packages/solid/presence": {
-      "name": "@radix-solid/presence",
+      "name": "@radix-solid-js/presence",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1824,10 +1824,10 @@
       },
     },
     "packages/solid/primitive-component": {
-      "name": "@radix-solid/primitive-component",
+      "name": "@radix-solid-js/primitive-component",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/slot": "workspace:*",
+        "@radix-solid-js/slot": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1840,11 +1840,11 @@
       },
     },
     "packages/solid/progress": {
-      "name": "@radix-solid/progress",
+      "name": "@radix-solid-js/progress",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1858,19 +1858,19 @@
       },
     },
     "packages/solid/radio-group": {
-      "name": "@radix-solid/radio-group",
+      "name": "@radix-solid-js/radio-group",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/use-size": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/use-size": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1884,52 +1884,52 @@
       },
     },
     "packages/solid/radix-ui": {
-      "name": "@radix-solid/radix-ui",
+      "name": "@radix-solid-js/radix-ui",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/accessible-icon": "workspace:*",
-        "@radix-solid/accordion": "workspace:*",
-        "@radix-solid/alert-dialog": "workspace:*",
-        "@radix-solid/arrow": "workspace:*",
-        "@radix-solid/aspect-ratio": "workspace:*",
-        "@radix-solid/avatar": "workspace:*",
-        "@radix-solid/checkbox": "workspace:*",
-        "@radix-solid/collapsible": "workspace:*",
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/context-menu": "workspace:*",
-        "@radix-solid/dialog": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/dropdown-menu": "workspace:*",
-        "@radix-solid/focus-guards": "workspace:*",
-        "@radix-solid/focus-scope": "workspace:*",
-        "@radix-solid/form": "workspace:*",
-        "@radix-solid/hover-card": "workspace:*",
-        "@radix-solid/label": "workspace:*",
-        "@radix-solid/menu": "workspace:*",
-        "@radix-solid/menubar": "workspace:*",
-        "@radix-solid/navigation-menu": "workspace:*",
-        "@radix-solid/one-time-password-field": "workspace:*",
-        "@radix-solid/password-toggle-field": "workspace:*",
-        "@radix-solid/popover": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/progress": "workspace:*",
-        "@radix-solid/radio-group": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/scroll-area": "workspace:*",
-        "@radix-solid/select": "workspace:*",
-        "@radix-solid/separator": "workspace:*",
-        "@radix-solid/slider": "workspace:*",
-        "@radix-solid/switch": "workspace:*",
-        "@radix-solid/tabs": "workspace:*",
-        "@radix-solid/toast": "workspace:*",
-        "@radix-solid/toggle": "workspace:*",
-        "@radix-solid/toggle-group": "workspace:*",
-        "@radix-solid/toolbar": "workspace:*",
-        "@radix-solid/tooltip": "workspace:*",
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/accessible-icon": "workspace:*",
+        "@radix-solid-js/accordion": "workspace:*",
+        "@radix-solid-js/alert-dialog": "workspace:*",
+        "@radix-solid-js/arrow": "workspace:*",
+        "@radix-solid-js/aspect-ratio": "workspace:*",
+        "@radix-solid-js/avatar": "workspace:*",
+        "@radix-solid-js/checkbox": "workspace:*",
+        "@radix-solid-js/collapsible": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/context-menu": "workspace:*",
+        "@radix-solid-js/dialog": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/dropdown-menu": "workspace:*",
+        "@radix-solid-js/focus-guards": "workspace:*",
+        "@radix-solid-js/focus-scope": "workspace:*",
+        "@radix-solid-js/form": "workspace:*",
+        "@radix-solid-js/hover-card": "workspace:*",
+        "@radix-solid-js/label": "workspace:*",
+        "@radix-solid-js/menu": "workspace:*",
+        "@radix-solid-js/menubar": "workspace:*",
+        "@radix-solid-js/navigation-menu": "workspace:*",
+        "@radix-solid-js/one-time-password-field": "workspace:*",
+        "@radix-solid-js/password-toggle-field": "workspace:*",
+        "@radix-solid-js/popover": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/progress": "workspace:*",
+        "@radix-solid-js/radio-group": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/scroll-area": "workspace:*",
+        "@radix-solid-js/select": "workspace:*",
+        "@radix-solid-js/separator": "workspace:*",
+        "@radix-solid-js/slider": "workspace:*",
+        "@radix-solid-js/switch": "workspace:*",
+        "@radix-solid-js/tabs": "workspace:*",
+        "@radix-solid-js/toast": "workspace:*",
+        "@radix-solid-js/toggle": "workspace:*",
+        "@radix-solid-js/toggle-group": "workspace:*",
+        "@radix-solid-js/toolbar": "workspace:*",
+        "@radix-solid-js/tooltip": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1943,16 +1943,16 @@
       },
     },
     "packages/solid/roving-focus": {
-      "name": "@radix-solid/roving-focus",
+      "name": "@radix-solid-js/roving-focus",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1965,16 +1965,16 @@
       },
     },
     "packages/solid/scroll-area": {
-      "name": "@radix-solid/scroll-area",
+      "name": "@radix-solid-js/scroll-area",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/number": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/number": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -1988,25 +1988,25 @@
       },
     },
     "packages/solid/select": {
-      "name": "@radix-solid/select",
+      "name": "@radix-solid-js/select",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/focus-guards": "workspace:*",
-        "@radix-solid/focus-scope": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/focus-guards": "workspace:*",
+        "@radix-solid-js/focus-scope": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
         "aria-hidden": "^1.2.6",
         "solid-prevent-scroll": "^0.1.10",
       },
@@ -2022,10 +2022,10 @@
       },
     },
     "packages/solid/separator": {
-      "name": "@radix-solid/separator",
+      "name": "@radix-solid-js/separator",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2039,19 +2039,19 @@
       },
     },
     "packages/solid/slider": {
-      "name": "@radix-solid/slider",
+      "name": "@radix-solid-js/slider",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/number": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/use-size": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/number": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/use-size": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2065,7 +2065,7 @@
       },
     },
     "packages/solid/slot": {
-      "name": "@radix-solid/slot",
+      "name": "@radix-solid-js/slot",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2078,16 +2078,16 @@
       },
     },
     "packages/solid/switch": {
-      "name": "@radix-solid/switch",
+      "name": "@radix-solid-js/switch",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/use-previous": "workspace:*",
-        "@radix-solid/use-size": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/use-previous": "workspace:*",
+        "@radix-solid-js/use-size": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2101,17 +2101,17 @@
       },
     },
     "packages/solid/tabs": {
-      "name": "@radix-solid/tabs",
+      "name": "@radix-solid-js/tabs",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2125,19 +2125,19 @@
       },
     },
     "packages/solid/toast": {
-      "name": "@radix-solid/toast",
+      "name": "@radix-solid-js/toast",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/collection": "workspace:*",
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/collection": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2151,12 +2151,12 @@
       },
     },
     "packages/solid/toggle": {
-      "name": "@radix-solid/toggle",
+      "name": "@radix-solid-js/toggle",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2170,16 +2170,16 @@
       },
     },
     "packages/solid/toggle-group": {
-      "name": "@radix-solid/toggle-group",
+      "name": "@radix-solid-js/toggle-group",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/toggle": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/toggle": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2193,16 +2193,16 @@
       },
     },
     "packages/solid/toolbar": {
-      "name": "@radix-solid/toolbar",
+      "name": "@radix-solid-js/toolbar",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/direction": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/roving-focus": "workspace:*",
-        "@radix-solid/separator": "workspace:*",
-        "@radix-solid/toggle-group": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/direction": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/roving-focus": "workspace:*",
+        "@radix-solid-js/separator": "workspace:*",
+        "@radix-solid-js/toggle-group": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2216,21 +2216,21 @@
       },
     },
     "packages/solid/tooltip": {
-      "name": "@radix-solid/tooltip",
+      "name": "@radix-solid-js/tooltip",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/compose-refs": "workspace:*",
-        "@radix-solid/context": "workspace:*",
-        "@radix-solid/dismissable-layer": "workspace:*",
-        "@radix-solid/id": "workspace:*",
-        "@radix-solid/popper": "workspace:*",
-        "@radix-solid/portal": "workspace:*",
-        "@radix-solid/presence": "workspace:*",
-        "@radix-solid/primitive": "workspace:*",
-        "@radix-solid/primitive-component": "workspace:*",
-        "@radix-solid/slot": "workspace:*",
-        "@radix-solid/use-controllable-state": "workspace:*",
-        "@radix-solid/visually-hidden": "workspace:*",
+        "@radix-solid-js/compose-refs": "workspace:*",
+        "@radix-solid-js/context": "workspace:*",
+        "@radix-solid-js/dismissable-layer": "workspace:*",
+        "@radix-solid-js/id": "workspace:*",
+        "@radix-solid-js/popper": "workspace:*",
+        "@radix-solid-js/portal": "workspace:*",
+        "@radix-solid-js/presence": "workspace:*",
+        "@radix-solid-js/primitive": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
+        "@radix-solid-js/slot": "workspace:*",
+        "@radix-solid-js/use-controllable-state": "workspace:*",
+        "@radix-solid-js/visually-hidden": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2244,7 +2244,7 @@
       },
     },
     "packages/solid/use-controllable-state": {
-      "name": "@radix-solid/use-controllable-state",
+      "name": "@radix-solid-js/use-controllable-state",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2258,7 +2258,7 @@
       },
     },
     "packages/solid/use-effect-event": {
-      "name": "@radix-solid/use-effect-event",
+      "name": "@radix-solid-js/use-effect-event",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2272,7 +2272,7 @@
       },
     },
     "packages/solid/use-escape-keydown": {
-      "name": "@radix-solid/use-escape-keydown",
+      "name": "@radix-solid-js/use-escape-keydown",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2286,7 +2286,7 @@
       },
     },
     "packages/solid/use-previous": {
-      "name": "@radix-solid/use-previous",
+      "name": "@radix-solid-js/use-previous",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2300,10 +2300,10 @@
       },
     },
     "packages/solid/use-rect": {
-      "name": "@radix-solid/use-rect",
+      "name": "@radix-solid-js/use-rect",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/rect": "workspace:*",
+        "@radix-solid-js/rect": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2317,7 +2317,7 @@
       },
     },
     "packages/solid/use-size": {
-      "name": "@radix-solid/use-size",
+      "name": "@radix-solid-js/use-size",
       "version": "0.1.0",
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2331,10 +2331,10 @@
       },
     },
     "packages/solid/visually-hidden": {
-      "name": "@radix-solid/visually-hidden",
+      "name": "@radix-solid-js/visually-hidden",
       "version": "0.1.0",
       "dependencies": {
-        "@radix-solid/primitive-component": "workspace:*",
+        "@radix-solid-js/primitive-component": "workspace:*",
       },
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
@@ -2548,123 +2548,123 @@
 
     "@playwright/test": ["@playwright/test@1.58.2", "", { "dependencies": { "playwright": "1.58.2" }, "bin": { "playwright": "cli.js" } }, "sha512-akea+6bHYBBfA9uQqSYmlJXn61cTa+jbO87xVLCWbTqbWadRVmhxlXATaOjOgcBaWU4ePo0wB41KMFv3o35IXA=="],
 
-    "@radix-solid/accessible-icon": ["@radix-solid/accessible-icon@workspace:packages/solid/accessible-icon"],
+    "@radix-solid-js/accessible-icon": ["@radix-solid-js/accessible-icon@workspace:packages/solid/accessible-icon"],
 
-    "@radix-solid/accordion": ["@radix-solid/accordion@workspace:packages/solid/accordion"],
+    "@radix-solid-js/accordion": ["@radix-solid-js/accordion@workspace:packages/solid/accordion"],
 
-    "@radix-solid/alert-dialog": ["@radix-solid/alert-dialog@workspace:packages/solid/alert-dialog"],
+    "@radix-solid-js/alert-dialog": ["@radix-solid-js/alert-dialog@workspace:packages/solid/alert-dialog"],
 
-    "@radix-solid/announce": ["@radix-solid/announce@workspace:packages/solid/announce"],
+    "@radix-solid-js/announce": ["@radix-solid-js/announce@workspace:packages/solid/announce"],
 
-    "@radix-solid/arrow": ["@radix-solid/arrow@workspace:packages/solid/arrow"],
+    "@radix-solid-js/arrow": ["@radix-solid-js/arrow@workspace:packages/solid/arrow"],
 
-    "@radix-solid/aspect-ratio": ["@radix-solid/aspect-ratio@workspace:packages/solid/aspect-ratio"],
+    "@radix-solid-js/aspect-ratio": ["@radix-solid-js/aspect-ratio@workspace:packages/solid/aspect-ratio"],
 
-    "@radix-solid/avatar": ["@radix-solid/avatar@workspace:packages/solid/avatar"],
+    "@radix-solid-js/avatar": ["@radix-solid-js/avatar@workspace:packages/solid/avatar"],
 
-    "@radix-solid/checkbox": ["@radix-solid/checkbox@workspace:packages/solid/checkbox"],
+    "@radix-solid-js/checkbox": ["@radix-solid-js/checkbox@workspace:packages/solid/checkbox"],
 
-    "@radix-solid/collapsible": ["@radix-solid/collapsible@workspace:packages/solid/collapsible"],
+    "@radix-solid-js/collapsible": ["@radix-solid-js/collapsible@workspace:packages/solid/collapsible"],
 
-    "@radix-solid/collection": ["@radix-solid/collection@workspace:packages/solid/collection"],
+    "@radix-solid-js/collection": ["@radix-solid-js/collection@workspace:packages/solid/collection"],
 
-    "@radix-solid/compose-refs": ["@radix-solid/compose-refs@workspace:packages/solid/compose-refs"],
+    "@radix-solid-js/compose-refs": ["@radix-solid-js/compose-refs@workspace:packages/solid/compose-refs"],
 
-    "@radix-solid/context": ["@radix-solid/context@workspace:packages/solid/context"],
+    "@radix-solid-js/context": ["@radix-solid-js/context@workspace:packages/solid/context"],
 
-    "@radix-solid/context-menu": ["@radix-solid/context-menu@workspace:packages/solid/context-menu"],
+    "@radix-solid-js/context-menu": ["@radix-solid-js/context-menu@workspace:packages/solid/context-menu"],
 
-    "@radix-solid/dialog": ["@radix-solid/dialog@workspace:packages/solid/dialog"],
+    "@radix-solid-js/dialog": ["@radix-solid-js/dialog@workspace:packages/solid/dialog"],
 
-    "@radix-solid/direction": ["@radix-solid/direction@workspace:packages/solid/direction"],
+    "@radix-solid-js/direction": ["@radix-solid-js/direction@workspace:packages/solid/direction"],
 
-    "@radix-solid/dismissable-layer": ["@radix-solid/dismissable-layer@workspace:packages/solid/dismissable-layer"],
+    "@radix-solid-js/dismissable-layer": ["@radix-solid-js/dismissable-layer@workspace:packages/solid/dismissable-layer"],
 
-    "@radix-solid/dropdown-menu": ["@radix-solid/dropdown-menu@workspace:packages/solid/dropdown-menu"],
+    "@radix-solid-js/dropdown-menu": ["@radix-solid-js/dropdown-menu@workspace:packages/solid/dropdown-menu"],
 
-    "@radix-solid/focus-guards": ["@radix-solid/focus-guards@workspace:packages/solid/focus-guards"],
+    "@radix-solid-js/focus-guards": ["@radix-solid-js/focus-guards@workspace:packages/solid/focus-guards"],
 
-    "@radix-solid/focus-scope": ["@radix-solid/focus-scope@workspace:packages/solid/focus-scope"],
+    "@radix-solid-js/focus-scope": ["@radix-solid-js/focus-scope@workspace:packages/solid/focus-scope"],
 
-    "@radix-solid/form": ["@radix-solid/form@workspace:packages/solid/form"],
+    "@radix-solid-js/form": ["@radix-solid-js/form@workspace:packages/solid/form"],
 
-    "@radix-solid/hover-card": ["@radix-solid/hover-card@workspace:packages/solid/hover-card"],
+    "@radix-solid-js/hover-card": ["@radix-solid-js/hover-card@workspace:packages/solid/hover-card"],
 
-    "@radix-solid/id": ["@radix-solid/id@workspace:packages/solid/id"],
+    "@radix-solid-js/id": ["@radix-solid-js/id@workspace:packages/solid/id"],
 
-    "@radix-solid/label": ["@radix-solid/label@workspace:packages/solid/label"],
+    "@radix-solid-js/label": ["@radix-solid-js/label@workspace:packages/solid/label"],
 
-    "@radix-solid/menu": ["@radix-solid/menu@workspace:packages/solid/menu"],
+    "@radix-solid-js/menu": ["@radix-solid-js/menu@workspace:packages/solid/menu"],
 
-    "@radix-solid/menubar": ["@radix-solid/menubar@workspace:packages/solid/menubar"],
+    "@radix-solid-js/menubar": ["@radix-solid-js/menubar@workspace:packages/solid/menubar"],
 
-    "@radix-solid/navigation-menu": ["@radix-solid/navigation-menu@workspace:packages/solid/navigation-menu"],
+    "@radix-solid-js/navigation-menu": ["@radix-solid-js/navigation-menu@workspace:packages/solid/navigation-menu"],
 
-    "@radix-solid/number": ["@radix-solid/number@workspace:packages/core/number"],
+    "@radix-solid-js/number": ["@radix-solid-js/number@workspace:packages/core/number"],
 
-    "@radix-solid/one-time-password-field": ["@radix-solid/one-time-password-field@workspace:packages/solid/one-time-password-field"],
+    "@radix-solid-js/one-time-password-field": ["@radix-solid-js/one-time-password-field@workspace:packages/solid/one-time-password-field"],
 
-    "@radix-solid/password-toggle-field": ["@radix-solid/password-toggle-field@workspace:packages/solid/password-toggle-field"],
+    "@radix-solid-js/password-toggle-field": ["@radix-solid-js/password-toggle-field@workspace:packages/solid/password-toggle-field"],
 
-    "@radix-solid/popover": ["@radix-solid/popover@workspace:packages/solid/popover"],
+    "@radix-solid-js/popover": ["@radix-solid-js/popover@workspace:packages/solid/popover"],
 
-    "@radix-solid/popper": ["@radix-solid/popper@workspace:packages/solid/popper"],
+    "@radix-solid-js/popper": ["@radix-solid-js/popper@workspace:packages/solid/popper"],
 
-    "@radix-solid/portal": ["@radix-solid/portal@workspace:packages/solid/portal"],
+    "@radix-solid-js/portal": ["@radix-solid-js/portal@workspace:packages/solid/portal"],
 
-    "@radix-solid/presence": ["@radix-solid/presence@workspace:packages/solid/presence"],
+    "@radix-solid-js/presence": ["@radix-solid-js/presence@workspace:packages/solid/presence"],
 
-    "@radix-solid/primitive": ["@radix-solid/primitive@workspace:packages/core/primitive"],
+    "@radix-solid-js/primitive": ["@radix-solid-js/primitive@workspace:packages/core/primitive"],
 
-    "@radix-solid/primitive-component": ["@radix-solid/primitive-component@workspace:packages/solid/primitive-component"],
+    "@radix-solid-js/primitive-component": ["@radix-solid-js/primitive-component@workspace:packages/solid/primitive-component"],
 
-    "@radix-solid/progress": ["@radix-solid/progress@workspace:packages/solid/progress"],
+    "@radix-solid-js/progress": ["@radix-solid-js/progress@workspace:packages/solid/progress"],
 
-    "@radix-solid/radio-group": ["@radix-solid/radio-group@workspace:packages/solid/radio-group"],
+    "@radix-solid-js/radio-group": ["@radix-solid-js/radio-group@workspace:packages/solid/radio-group"],
 
-    "@radix-solid/radix-ui": ["@radix-solid/radix-ui@workspace:packages/solid/radix-ui"],
+    "@radix-solid-js/radix-ui": ["@radix-solid-js/radix-ui@workspace:packages/solid/radix-ui"],
 
-    "@radix-solid/rect": ["@radix-solid/rect@workspace:packages/core/rect"],
+    "@radix-solid-js/rect": ["@radix-solid-js/rect@workspace:packages/core/rect"],
 
-    "@radix-solid/roving-focus": ["@radix-solid/roving-focus@workspace:packages/solid/roving-focus"],
+    "@radix-solid-js/roving-focus": ["@radix-solid-js/roving-focus@workspace:packages/solid/roving-focus"],
 
-    "@radix-solid/scroll-area": ["@radix-solid/scroll-area@workspace:packages/solid/scroll-area"],
+    "@radix-solid-js/scroll-area": ["@radix-solid-js/scroll-area@workspace:packages/solid/scroll-area"],
 
-    "@radix-solid/select": ["@radix-solid/select@workspace:packages/solid/select"],
+    "@radix-solid-js/select": ["@radix-solid-js/select@workspace:packages/solid/select"],
 
-    "@radix-solid/separator": ["@radix-solid/separator@workspace:packages/solid/separator"],
+    "@radix-solid-js/separator": ["@radix-solid-js/separator@workspace:packages/solid/separator"],
 
-    "@radix-solid/slider": ["@radix-solid/slider@workspace:packages/solid/slider"],
+    "@radix-solid-js/slider": ["@radix-solid-js/slider@workspace:packages/solid/slider"],
 
-    "@radix-solid/slot": ["@radix-solid/slot@workspace:packages/solid/slot"],
+    "@radix-solid-js/slot": ["@radix-solid-js/slot@workspace:packages/solid/slot"],
 
-    "@radix-solid/switch": ["@radix-solid/switch@workspace:packages/solid/switch"],
+    "@radix-solid-js/switch": ["@radix-solid-js/switch@workspace:packages/solid/switch"],
 
-    "@radix-solid/tabs": ["@radix-solid/tabs@workspace:packages/solid/tabs"],
+    "@radix-solid-js/tabs": ["@radix-solid-js/tabs@workspace:packages/solid/tabs"],
 
-    "@radix-solid/toast": ["@radix-solid/toast@workspace:packages/solid/toast"],
+    "@radix-solid-js/toast": ["@radix-solid-js/toast@workspace:packages/solid/toast"],
 
-    "@radix-solid/toggle": ["@radix-solid/toggle@workspace:packages/solid/toggle"],
+    "@radix-solid-js/toggle": ["@radix-solid-js/toggle@workspace:packages/solid/toggle"],
 
-    "@radix-solid/toggle-group": ["@radix-solid/toggle-group@workspace:packages/solid/toggle-group"],
+    "@radix-solid-js/toggle-group": ["@radix-solid-js/toggle-group@workspace:packages/solid/toggle-group"],
 
-    "@radix-solid/toolbar": ["@radix-solid/toolbar@workspace:packages/solid/toolbar"],
+    "@radix-solid-js/toolbar": ["@radix-solid-js/toolbar@workspace:packages/solid/toolbar"],
 
-    "@radix-solid/tooltip": ["@radix-solid/tooltip@workspace:packages/solid/tooltip"],
+    "@radix-solid-js/tooltip": ["@radix-solid-js/tooltip@workspace:packages/solid/tooltip"],
 
-    "@radix-solid/use-controllable-state": ["@radix-solid/use-controllable-state@workspace:packages/solid/use-controllable-state"],
+    "@radix-solid-js/use-controllable-state": ["@radix-solid-js/use-controllable-state@workspace:packages/solid/use-controllable-state"],
 
-    "@radix-solid/use-effect-event": ["@radix-solid/use-effect-event@workspace:packages/solid/use-effect-event"],
+    "@radix-solid-js/use-effect-event": ["@radix-solid-js/use-effect-event@workspace:packages/solid/use-effect-event"],
 
-    "@radix-solid/use-escape-keydown": ["@radix-solid/use-escape-keydown@workspace:packages/solid/use-escape-keydown"],
+    "@radix-solid-js/use-escape-keydown": ["@radix-solid-js/use-escape-keydown@workspace:packages/solid/use-escape-keydown"],
 
-    "@radix-solid/use-previous": ["@radix-solid/use-previous@workspace:packages/solid/use-previous"],
+    "@radix-solid-js/use-previous": ["@radix-solid-js/use-previous@workspace:packages/solid/use-previous"],
 
-    "@radix-solid/use-rect": ["@radix-solid/use-rect@workspace:packages/solid/use-rect"],
+    "@radix-solid-js/use-rect": ["@radix-solid-js/use-rect@workspace:packages/solid/use-rect"],
 
-    "@radix-solid/use-size": ["@radix-solid/use-size@workspace:packages/solid/use-size"],
+    "@radix-solid-js/use-size": ["@radix-solid-js/use-size@workspace:packages/solid/use-size"],
 
-    "@radix-solid/visually-hidden": ["@radix-solid/visually-hidden@workspace:packages/solid/visually-hidden"],
+    "@radix-solid-js/visually-hidden": ["@radix-solid-js/visually-hidden@workspace:packages/solid/visually-hidden"],
 
     "@repo/build-config": ["@repo/build-config@workspace:internal/build-config"],
 
@@ -2728,117 +2728,117 @@
 
     "@sec-ant/readable-stream": ["@sec-ant/readable-stream@0.4.1", "", {}, "sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg=="],
 
-    "@shadcn-solid/accordion": ["@shadcn-solid/accordion@workspace:packages/shadcn/accordion"],
+    "@shadcn-solid-js/accordion": ["@shadcn-solid-js/accordion@workspace:packages/shadcn/accordion"],
 
-    "@shadcn-solid/alert": ["@shadcn-solid/alert@workspace:packages/shadcn/alert"],
+    "@shadcn-solid-js/alert": ["@shadcn-solid-js/alert@workspace:packages/shadcn/alert"],
 
-    "@shadcn-solid/alert-dialog": ["@shadcn-solid/alert-dialog@workspace:packages/shadcn/alert-dialog"],
+    "@shadcn-solid-js/alert-dialog": ["@shadcn-solid-js/alert-dialog@workspace:packages/shadcn/alert-dialog"],
 
-    "@shadcn-solid/aspect-ratio": ["@shadcn-solid/aspect-ratio@workspace:packages/shadcn/aspect-ratio"],
+    "@shadcn-solid-js/aspect-ratio": ["@shadcn-solid-js/aspect-ratio@workspace:packages/shadcn/aspect-ratio"],
 
-    "@shadcn-solid/avatar": ["@shadcn-solid/avatar@workspace:packages/shadcn/avatar"],
+    "@shadcn-solid-js/avatar": ["@shadcn-solid-js/avatar@workspace:packages/shadcn/avatar"],
 
-    "@shadcn-solid/badge": ["@shadcn-solid/badge@workspace:packages/shadcn/badge"],
+    "@shadcn-solid-js/badge": ["@shadcn-solid-js/badge@workspace:packages/shadcn/badge"],
 
-    "@shadcn-solid/breadcrumb": ["@shadcn-solid/breadcrumb@workspace:packages/shadcn/breadcrumb"],
+    "@shadcn-solid-js/breadcrumb": ["@shadcn-solid-js/breadcrumb@workspace:packages/shadcn/breadcrumb"],
 
-    "@shadcn-solid/button": ["@shadcn-solid/button@workspace:packages/shadcn/button"],
+    "@shadcn-solid-js/button": ["@shadcn-solid-js/button@workspace:packages/shadcn/button"],
 
-    "@shadcn-solid/button-group": ["@shadcn-solid/button-group@workspace:packages/shadcn/button-group"],
+    "@shadcn-solid-js/button-group": ["@shadcn-solid-js/button-group@workspace:packages/shadcn/button-group"],
 
-    "@shadcn-solid/calendar": ["@shadcn-solid/calendar@workspace:packages/shadcn/calendar"],
+    "@shadcn-solid-js/calendar": ["@shadcn-solid-js/calendar@workspace:packages/shadcn/calendar"],
 
-    "@shadcn-solid/card": ["@shadcn-solid/card@workspace:packages/shadcn/card"],
+    "@shadcn-solid-js/card": ["@shadcn-solid-js/card@workspace:packages/shadcn/card"],
 
-    "@shadcn-solid/carousel": ["@shadcn-solid/carousel@workspace:packages/shadcn/carousel"],
+    "@shadcn-solid-js/carousel": ["@shadcn-solid-js/carousel@workspace:packages/shadcn/carousel"],
 
-    "@shadcn-solid/chart": ["@shadcn-solid/chart@workspace:packages/shadcn/chart"],
+    "@shadcn-solid-js/chart": ["@shadcn-solid-js/chart@workspace:packages/shadcn/chart"],
 
-    "@shadcn-solid/checkbox": ["@shadcn-solid/checkbox@workspace:packages/shadcn/checkbox"],
+    "@shadcn-solid-js/checkbox": ["@shadcn-solid-js/checkbox@workspace:packages/shadcn/checkbox"],
 
-    "@shadcn-solid/collapsible": ["@shadcn-solid/collapsible@workspace:packages/shadcn/collapsible"],
+    "@shadcn-solid-js/collapsible": ["@shadcn-solid-js/collapsible@workspace:packages/shadcn/collapsible"],
 
-    "@shadcn-solid/combobox": ["@shadcn-solid/combobox@workspace:packages/shadcn/combobox"],
+    "@shadcn-solid-js/combobox": ["@shadcn-solid-js/combobox@workspace:packages/shadcn/combobox"],
 
-    "@shadcn-solid/command": ["@shadcn-solid/command@workspace:packages/shadcn/command"],
+    "@shadcn-solid-js/command": ["@shadcn-solid-js/command@workspace:packages/shadcn/command"],
 
-    "@shadcn-solid/context-menu": ["@shadcn-solid/context-menu@workspace:packages/shadcn/context-menu"],
+    "@shadcn-solid-js/context-menu": ["@shadcn-solid-js/context-menu@workspace:packages/shadcn/context-menu"],
 
-    "@shadcn-solid/dialog": ["@shadcn-solid/dialog@workspace:packages/shadcn/dialog"],
+    "@shadcn-solid-js/dialog": ["@shadcn-solid-js/dialog@workspace:packages/shadcn/dialog"],
 
-    "@shadcn-solid/drawer": ["@shadcn-solid/drawer@workspace:packages/shadcn/drawer"],
+    "@shadcn-solid-js/drawer": ["@shadcn-solid-js/drawer@workspace:packages/shadcn/drawer"],
 
-    "@shadcn-solid/dropdown-menu": ["@shadcn-solid/dropdown-menu@workspace:packages/shadcn/dropdown-menu"],
+    "@shadcn-solid-js/dropdown-menu": ["@shadcn-solid-js/dropdown-menu@workspace:packages/shadcn/dropdown-menu"],
 
-    "@shadcn-solid/empty": ["@shadcn-solid/empty@workspace:packages/shadcn/empty"],
+    "@shadcn-solid-js/empty": ["@shadcn-solid-js/empty@workspace:packages/shadcn/empty"],
 
-    "@shadcn-solid/field": ["@shadcn-solid/field@workspace:packages/shadcn/field"],
+    "@shadcn-solid-js/field": ["@shadcn-solid-js/field@workspace:packages/shadcn/field"],
 
-    "@shadcn-solid/form": ["@shadcn-solid/form@workspace:packages/shadcn/form"],
+    "@shadcn-solid-js/form": ["@shadcn-solid-js/form@workspace:packages/shadcn/form"],
 
-    "@shadcn-solid/hover-card": ["@shadcn-solid/hover-card@workspace:packages/shadcn/hover-card"],
+    "@shadcn-solid-js/hover-card": ["@shadcn-solid-js/hover-card@workspace:packages/shadcn/hover-card"],
 
-    "@shadcn-solid/input": ["@shadcn-solid/input@workspace:packages/shadcn/input"],
+    "@shadcn-solid-js/input": ["@shadcn-solid-js/input@workspace:packages/shadcn/input"],
 
-    "@shadcn-solid/input-group": ["@shadcn-solid/input-group@workspace:packages/shadcn/input-group"],
+    "@shadcn-solid-js/input-group": ["@shadcn-solid-js/input-group@workspace:packages/shadcn/input-group"],
 
-    "@shadcn-solid/input-otp": ["@shadcn-solid/input-otp@workspace:packages/shadcn/input-otp"],
+    "@shadcn-solid-js/input-otp": ["@shadcn-solid-js/input-otp@workspace:packages/shadcn/input-otp"],
 
-    "@shadcn-solid/item": ["@shadcn-solid/item@workspace:packages/shadcn/item"],
+    "@shadcn-solid-js/item": ["@shadcn-solid-js/item@workspace:packages/shadcn/item"],
 
-    "@shadcn-solid/kbd": ["@shadcn-solid/kbd@workspace:packages/shadcn/kbd"],
+    "@shadcn-solid-js/kbd": ["@shadcn-solid-js/kbd@workspace:packages/shadcn/kbd"],
 
-    "@shadcn-solid/label": ["@shadcn-solid/label@workspace:packages/shadcn/label"],
+    "@shadcn-solid-js/label": ["@shadcn-solid-js/label@workspace:packages/shadcn/label"],
 
-    "@shadcn-solid/menubar": ["@shadcn-solid/menubar@workspace:packages/shadcn/menubar"],
+    "@shadcn-solid-js/menubar": ["@shadcn-solid-js/menubar@workspace:packages/shadcn/menubar"],
 
-    "@shadcn-solid/native-select": ["@shadcn-solid/native-select@workspace:packages/shadcn/native-select"],
+    "@shadcn-solid-js/native-select": ["@shadcn-solid-js/native-select@workspace:packages/shadcn/native-select"],
 
-    "@shadcn-solid/navigation-menu": ["@shadcn-solid/navigation-menu@workspace:packages/shadcn/navigation-menu"],
+    "@shadcn-solid-js/navigation-menu": ["@shadcn-solid-js/navigation-menu@workspace:packages/shadcn/navigation-menu"],
 
-    "@shadcn-solid/pagination": ["@shadcn-solid/pagination@workspace:packages/shadcn/pagination"],
+    "@shadcn-solid-js/pagination": ["@shadcn-solid-js/pagination@workspace:packages/shadcn/pagination"],
 
-    "@shadcn-solid/popover": ["@shadcn-solid/popover@workspace:packages/shadcn/popover"],
+    "@shadcn-solid-js/popover": ["@shadcn-solid-js/popover@workspace:packages/shadcn/popover"],
 
-    "@shadcn-solid/progress": ["@shadcn-solid/progress@workspace:packages/shadcn/progress"],
+    "@shadcn-solid-js/progress": ["@shadcn-solid-js/progress@workspace:packages/shadcn/progress"],
 
-    "@shadcn-solid/radio-group": ["@shadcn-solid/radio-group@workspace:packages/shadcn/radio-group"],
+    "@shadcn-solid-js/radio-group": ["@shadcn-solid-js/radio-group@workspace:packages/shadcn/radio-group"],
 
-    "@shadcn-solid/resizable": ["@shadcn-solid/resizable@workspace:packages/shadcn/resizable"],
+    "@shadcn-solid-js/resizable": ["@shadcn-solid-js/resizable@workspace:packages/shadcn/resizable"],
 
-    "@shadcn-solid/scroll-area": ["@shadcn-solid/scroll-area@workspace:packages/shadcn/scroll-area"],
+    "@shadcn-solid-js/scroll-area": ["@shadcn-solid-js/scroll-area@workspace:packages/shadcn/scroll-area"],
 
-    "@shadcn-solid/select": ["@shadcn-solid/select@workspace:packages/shadcn/select"],
+    "@shadcn-solid-js/select": ["@shadcn-solid-js/select@workspace:packages/shadcn/select"],
 
-    "@shadcn-solid/separator": ["@shadcn-solid/separator@workspace:packages/shadcn/separator"],
+    "@shadcn-solid-js/separator": ["@shadcn-solid-js/separator@workspace:packages/shadcn/separator"],
 
-    "@shadcn-solid/sheet": ["@shadcn-solid/sheet@workspace:packages/shadcn/sheet"],
+    "@shadcn-solid-js/sheet": ["@shadcn-solid-js/sheet@workspace:packages/shadcn/sheet"],
 
-    "@shadcn-solid/sidebar": ["@shadcn-solid/sidebar@workspace:packages/shadcn/sidebar"],
+    "@shadcn-solid-js/sidebar": ["@shadcn-solid-js/sidebar@workspace:packages/shadcn/sidebar"],
 
-    "@shadcn-solid/skeleton": ["@shadcn-solid/skeleton@workspace:packages/shadcn/skeleton"],
+    "@shadcn-solid-js/skeleton": ["@shadcn-solid-js/skeleton@workspace:packages/shadcn/skeleton"],
 
-    "@shadcn-solid/slider": ["@shadcn-solid/slider@workspace:packages/shadcn/slider"],
+    "@shadcn-solid-js/slider": ["@shadcn-solid-js/slider@workspace:packages/shadcn/slider"],
 
-    "@shadcn-solid/sonner": ["@shadcn-solid/sonner@workspace:packages/shadcn/sonner"],
+    "@shadcn-solid-js/sonner": ["@shadcn-solid-js/sonner@workspace:packages/shadcn/sonner"],
 
-    "@shadcn-solid/spinner": ["@shadcn-solid/spinner@workspace:packages/shadcn/spinner"],
+    "@shadcn-solid-js/spinner": ["@shadcn-solid-js/spinner@workspace:packages/shadcn/spinner"],
 
-    "@shadcn-solid/switch": ["@shadcn-solid/switch@workspace:packages/shadcn/switch"],
+    "@shadcn-solid-js/switch": ["@shadcn-solid-js/switch@workspace:packages/shadcn/switch"],
 
-    "@shadcn-solid/table": ["@shadcn-solid/table@workspace:packages/shadcn/table"],
+    "@shadcn-solid-js/table": ["@shadcn-solid-js/table@workspace:packages/shadcn/table"],
 
-    "@shadcn-solid/tabs": ["@shadcn-solid/tabs@workspace:packages/shadcn/tabs"],
+    "@shadcn-solid-js/tabs": ["@shadcn-solid-js/tabs@workspace:packages/shadcn/tabs"],
 
-    "@shadcn-solid/textarea": ["@shadcn-solid/textarea@workspace:packages/shadcn/textarea"],
+    "@shadcn-solid-js/textarea": ["@shadcn-solid-js/textarea@workspace:packages/shadcn/textarea"],
 
-    "@shadcn-solid/toggle": ["@shadcn-solid/toggle@workspace:packages/shadcn/toggle"],
+    "@shadcn-solid-js/toggle": ["@shadcn-solid-js/toggle@workspace:packages/shadcn/toggle"],
 
-    "@shadcn-solid/toggle-group": ["@shadcn-solid/toggle-group@workspace:packages/shadcn/toggle-group"],
+    "@shadcn-solid-js/toggle-group": ["@shadcn-solid-js/toggle-group@workspace:packages/shadcn/toggle-group"],
 
-    "@shadcn-solid/tooltip": ["@shadcn-solid/tooltip@workspace:packages/shadcn/tooltip"],
+    "@shadcn-solid-js/tooltip": ["@shadcn-solid-js/tooltip@workspace:packages/shadcn/tooltip"],
 
-    "@shadcn-solid/utils": ["@shadcn-solid/utils@workspace:packages/shadcn/utils"],
+    "@shadcn-solid-js/utils": ["@shadcn-solid-js/utils@workspace:packages/shadcn/utils"],
 
     "@sindresorhus/merge-streams": ["@sindresorhus/merge-streams@4.0.0", "", {}, "sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ=="],
 
@@ -3484,7 +3484,7 @@
 
     "seroval-plugins": ["seroval-plugins@1.5.0", "", { "peerDependencies": { "seroval": "^1.0" } }, "sha512-EAHqADIQondwRZIdeW2I636zgsODzoBDwb3PT/+7TLDWyw1Dy/Xv7iGUIEXXav7usHDE9HVhOU61irI3EnyyHA=="],
 
-    "shadcn-solid": ["shadcn-solid@workspace:packages/cli"],
+    "shadcn-solid-js": ["shadcn-solid-js@workspace:packages/cli"],
 
     "shebang-command": ["shebang-command@2.0.0", "", { "dependencies": { "shebang-regex": "^3.0.0" } }, "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="],
 

@@ -6,8 +6,8 @@ import {
   createSignal,
   splitProps,
 } from "solid-js";
-import * as PopoverPrimitive from "@radix-solid/popover";
-import { cn } from "@shadcn-solid/utils";
+import * as PopoverPrimitive from "@radix-solid-js/popover";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* ------------------------------ ComboboxItem ------------------------------ */
 

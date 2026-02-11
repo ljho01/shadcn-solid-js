@@ -1,5 +1,5 @@
-import { Label } from "@shadcn-solid/label";
-import { Switch } from "@shadcn-solid/switch";
+import { Label } from "@shadcn-solid-js/label";
+import { Switch } from "@shadcn-solid-js/switch";
 
 export default function SwitchDemo() {
   return (

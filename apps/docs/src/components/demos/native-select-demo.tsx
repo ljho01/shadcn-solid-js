@@ -1,4 +1,4 @@
-import { NativeSelect } from "@shadcn-solid/native-select";
+import { NativeSelect } from "@shadcn-solid-js/native-select";
 
 export default function NativeSelectDemo() {
   return (

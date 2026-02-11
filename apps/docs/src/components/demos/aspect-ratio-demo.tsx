@@ -1,4 +1,4 @@
-import { AspectRatio } from "@shadcn-solid/aspect-ratio";
+import { AspectRatio } from "@shadcn-solid-js/aspect-ratio";
 
 export default function AspectRatioDemo() {
   return (

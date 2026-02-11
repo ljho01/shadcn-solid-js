@@ -1,4 +1,4 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,7 +11,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@shadcn-solid/dropdown-menu";
+} from "@shadcn-solid-js/dropdown-menu";
 
 export default function DropdownMenuDemo() {
   return (

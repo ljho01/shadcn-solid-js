@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/checkbox",
+  "name": "@radix-solid-js/checkbox",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,14 +29,14 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/presence": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/use-controllable-state": "workspace:*",
-    "@radix-solid/use-previous": "workspace:*",
-    "@radix-solid/use-size": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/presence": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/use-controllable-state": "workspace:*",
+    "@radix-solid-js/use-previous": "workspace:*",
+    "@radix-solid-js/use-size": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

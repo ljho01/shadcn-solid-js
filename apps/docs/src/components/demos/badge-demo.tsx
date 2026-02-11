@@ -1,4 +1,4 @@
-import { Badge } from "@shadcn-solid/badge";
+import { Badge } from "@shadcn-solid-js/badge";
 
 export default function BadgeDemo() {
   return (

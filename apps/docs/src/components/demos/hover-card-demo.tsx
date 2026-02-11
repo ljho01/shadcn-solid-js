@@ -1,10 +1,10 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@shadcn-solid/avatar";
-import { Button } from "@shadcn-solid/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@shadcn-solid-js/avatar";
+import { Button } from "@shadcn-solid-js/button";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@shadcn-solid/hover-card";
+} from "@shadcn-solid-js/hover-card";
 
 export default function HoverCardDemo() {
   return (

@@ -1,12 +1,12 @@
 import { type JSX, splitProps } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createContextScope, type Scope } from '@radix-solid/context';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
 import {
   RovingFocusGroup,
   RovingFocusGroupItem,
   createRovingFocusGroupScope,
-} from '@radix-solid/roving-focus';
-import { Separator as SeparatorPrimitive, type SeparatorProps } from '@radix-solid/separator';
+} from '@radix-solid-js/roving-focus';
+import { Separator as SeparatorPrimitive, type SeparatorProps } from '@radix-solid-js/separator';
 import {
   ToggleGroup as ToggleGroupPrimitive,
   ToggleGroupItem as ToggleGroupItemPrimitive,
@@ -14,9 +14,9 @@ import {
   type ToggleGroupSingleProps,
   type ToggleGroupMultipleProps,
   type ToggleGroupItemProps,
-} from '@radix-solid/toggle-group';
-import { useDirection } from '@radix-solid/direction';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+} from '@radix-solid-js/toggle-group';
+import { useDirection } from '@radix-solid-js/direction';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
 /* -------------------------------------------------------------------------------------------------
  * Toolbar

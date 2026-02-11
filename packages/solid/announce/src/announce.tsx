@@ -1,7 +1,7 @@
 import { type JSX, createSignal, createEffect, onMount, onCleanup, splitProps } from 'solid-js';
 import { Portal } from 'solid-js/web';
-import { Primitive } from '@radix-solid/primitive-component';
-import { mergeRefs } from '@radix-solid/compose-refs';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
 
 type RegionType = 'polite' | 'assertive' | 'off';
 type RegionRole = 'status' | 'alert' | 'log' | 'none';

@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as AspectRatioPrimitive from "@radix-solid/aspect-ratio";
-import { cn } from "@shadcn-solid/utils";
+import * as AspectRatioPrimitive from "@radix-solid-js/aspect-ratio";
+import { cn } from "@shadcn-solid-js/utils";
 
 interface AspectRatioProps extends ComponentProps<
   typeof AspectRatioPrimitive.Root

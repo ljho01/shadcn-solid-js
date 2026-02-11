@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@shadcn-solid/alert-dialog";
-import { Button } from "@shadcn-solid/button";
+} from "@shadcn-solid-js/alert-dialog";
+import { Button } from "@shadcn-solid-js/button";
 
 export default function AlertDialogDemo() {
   return (

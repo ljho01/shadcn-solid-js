@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/menubar",
+  "name": "@radix-solid-js/menubar",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,16 +29,16 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/collection": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/direction": "workspace:*",
-    "@radix-solid/id": "workspace:*",
-    "@radix-solid/menu": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/roving-focus": "workspace:*",
-    "@radix-solid/use-controllable-state": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/collection": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/direction": "workspace:*",
+    "@radix-solid-js/id": "workspace:*",
+    "@radix-solid-js/menu": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/roving-focus": "workspace:*",
+    "@radix-solid-js/use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

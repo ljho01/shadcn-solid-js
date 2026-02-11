@@ -1,11 +1,11 @@
 import { type JSX, createSignal, createEffect, onCleanup, splitProps, createUniqueId } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createCollection } from '@radix-solid/collection';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { useDirection } from '@radix-solid/direction';
-import { Primitive } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createCollection } from '@radix-solid-js/collection';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { useDirection } from '@radix-solid-js/direction';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
 
 const ENTRY_FOCUS = 'rovingFocusGroup.onEntryFocus';
 const EVENT_OPTIONS = { bubbles: false, cancelable: true };

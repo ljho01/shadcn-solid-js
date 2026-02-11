@@ -1,6 +1,6 @@
-import { Button } from "@shadcn-solid/button";
-import { Input } from "@shadcn-solid/input";
-import { Label } from "@shadcn-solid/label";
+import { Button } from "@shadcn-solid-js/button";
+import { Input } from "@shadcn-solid-js/input";
+import { Label } from "@shadcn-solid-js/label";
 import {
   Sheet,
   SheetClose,
@@ -10,7 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@shadcn-solid/sheet";
+} from "@shadcn-solid-js/sheet";
 
 export default function SheetDemo() {
   return (

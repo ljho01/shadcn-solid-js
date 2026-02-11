@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from "@shadcn-solid/alert";
+import { Alert, AlertDescription, AlertTitle } from "@shadcn-solid-js/alert";
 
 export default function AlertDemo() {
   return (

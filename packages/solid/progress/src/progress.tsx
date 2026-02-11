@@ -1,8 +1,8 @@
 import { splitProps } from 'solid-js';
-import { createContextScope } from '@radix-solid/context';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { createContextScope } from '@radix-solid-js/context';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * Progress

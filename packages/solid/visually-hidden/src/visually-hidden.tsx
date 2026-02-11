@@ -1,5 +1,5 @@
 import { type JSX, splitProps } from 'solid-js';
-import { Primitive } from '@radix-solid/primitive-component';
+import { Primitive } from '@radix-solid-js/primitive-component';
 
 const VISUALLY_HIDDEN_STYLES: JSX.CSSProperties = {
   position: 'absolute',

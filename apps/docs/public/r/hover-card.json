@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "hover-card.tsx",
-      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as HoverCardPrimitive from \"@radix-solid/hover-card\";\nimport { cn } from \"~/lib/utils\";\n\nconst HoverCard = HoverCardPrimitive.Root;\n\nconst HoverCardTrigger = HoverCardPrimitive.Trigger;\n\nconst HoverCardContent: Component<\n  ComponentProps<typeof HoverCardPrimitive.Content>\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\", \"align\", \"sideOffset\"]);\n  return (\n    <HoverCardPrimitive.Portal>\n      <HoverCardPrimitive.Content\n        data-slot=\"hover-card-content\"\n        align={local.align ?? \"center\"}\n        sideOffset={local.sideOffset ?? 4}\n        class={cn(\n          \"data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 ring-foreground/10 bg-popover text-popover-foreground z-50 w-64 origin-(--radix-hover-card-content-transform-origin) rounded-lg p-2.5 text-sm shadow-md ring-1 outline-hidden duration-100\",\n          local.class\n        )}\n        {...rest}\n      />\n    </HoverCardPrimitive.Portal>\n  );\n};\n\nexport { HoverCard, HoverCardTrigger, HoverCardContent };\n",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as HoverCardPrimitive from \"@radix-solid-js/hover-card\";\nimport { cn } from \"~/lib/utils\";\n\nconst HoverCard = HoverCardPrimitive.Root;\n\nconst HoverCardTrigger = HoverCardPrimitive.Trigger;\n\nconst HoverCardContent: Component<\n  ComponentProps<typeof HoverCardPrimitive.Content>\n> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\", \"align\", \"sideOffset\"]);\n  return (\n    <HoverCardPrimitive.Portal>\n      <HoverCardPrimitive.Content\n        data-slot=\"hover-card-content\"\n        align={local.align ?? \"center\"}\n        sideOffset={local.sideOffset ?? 4}\n        class={cn(\n          \"data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 ring-foreground/10 bg-popover text-popover-foreground z-50 w-64 origin-(--radix-hover-card-content-transform-origin) rounded-lg p-2.5 text-sm shadow-md ring-1 outline-hidden duration-100\",\n          local.class\n        )}\n        {...rest}\n      />\n    </HoverCardPrimitive.Portal>\n  );\n};\n\nexport { HoverCard, HoverCardTrigger, HoverCardContent };\n",
       "type": "registry:ui",
       "target": "components/ui/hover-card.tsx"
     },
@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": [
-    "@radix-solid/hover-card@workspace:*"
+    "@radix-solid-js/hover-card@workspace:*"
   ],
   "devDependencies": [
     "tsup@^8.3.6",

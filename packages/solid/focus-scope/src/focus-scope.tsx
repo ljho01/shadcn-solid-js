@@ -1,6 +1,6 @@
 import { type JSX, createSignal, createEffect, onCleanup, splitProps } from 'solid-js';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { Primitive } from '@radix-solid/primitive-component';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { Primitive } from '@radix-solid-js/primitive-component';
 
 const AUTOFOCUS_ON_MOUNT = 'focusScope.autoFocusOnMount';
 const AUTOFOCUS_ON_UNMOUNT = 'focusScope.autoFocusOnUnmount';

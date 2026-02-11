@@ -1,19 +1,19 @@
 import { type JSX, splitProps } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createCollection } from '@radix-solid/collection';
-import { createContextScope } from '@radix-solid/context';
-import { useDirection } from '@radix-solid/direction';
-import { createId } from '@radix-solid/id';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createCollection } from '@radix-solid-js/collection';
+import { createContextScope } from '@radix-solid-js/context';
+import { useDirection } from '@radix-solid-js/direction';
+import { createId } from '@radix-solid-js/id';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
 import {
   Collapsible,
   CollapsibleTrigger,
   CollapsibleContent,
   createCollapsibleScope,
-} from '@radix-solid/collapsible';
+} from '@radix-solid-js/collapsible';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 type Direction = 'ltr' | 'rtl';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/toggle-group",
+  "name": "@shadcn-solid-js/toggle-group",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,9 +29,9 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/toggle-group": "workspace:*",
-    "@shadcn-solid/toggle": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/toggle-group": "workspace:*",
+    "@shadcn-solid-js/toggle": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

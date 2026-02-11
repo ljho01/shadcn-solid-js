@@ -1,4 +1,4 @@
-import { Separator } from "@shadcn-solid/separator";
+import { Separator } from "@shadcn-solid-js/separator";
 
 export default function SeparatorDemo() {
   return (

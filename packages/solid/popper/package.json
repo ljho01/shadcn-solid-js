@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/popper",
+  "name": "@radix-solid-js/popper",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.0",
-    "@radix-solid/arrow": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/presence": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/use-size": "workspace:*"
+    "@radix-solid-js/arrow": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/presence": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/use-size": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

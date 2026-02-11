@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@shadcn-solid/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@shadcn-solid-js/avatar";
 
 export default function AvatarDemo() {
   return (

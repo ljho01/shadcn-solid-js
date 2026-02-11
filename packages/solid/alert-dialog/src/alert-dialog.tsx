@@ -1,9 +1,9 @@
 import { type JSX, splitProps, createSignal } from 'solid-js';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import * as DialogPrimitive from '@radix-solid/dialog';
-import { createDialogScope } from '@radix-solid/dialog';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import * as DialogPrimitive from '@radix-solid-js/dialog';
+import { createDialogScope } from '@radix-solid-js/dialog';
 
 /* -------------------------------------------------------------------------------------------------
  * AlertDialog

@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/slider",
+  "name": "@shadcn-solid-js/slider",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/slider": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/slider": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

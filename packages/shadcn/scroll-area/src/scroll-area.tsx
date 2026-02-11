@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as ScrollAreaPrimitive from "@radix-solid/scroll-area";
-import { cn } from "@shadcn-solid/utils";
+import * as ScrollAreaPrimitive from "@radix-solid-js/scroll-area";
+import { cn } from "@shadcn-solid-js/utils";
 
 const ScrollArea: Component<
   ComponentProps<typeof ScrollAreaPrimitive.Root> & { children?: JSX.Element }

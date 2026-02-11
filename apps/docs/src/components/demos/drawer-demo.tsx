@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   Drawer,
   DrawerClose,
@@ -9,7 +9,7 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@shadcn-solid/drawer";
+} from "@shadcn-solid-js/drawer";
 
 export default function DrawerDemo() {
   const [goal, setGoal] = createSignal(350);

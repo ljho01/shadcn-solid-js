@@ -1,16 +1,16 @@
 import { type JSX, createSignal, createEffect, splitProps } from "solid-js";
-import { composeEventHandlers } from "@radix-solid/primitive";
-import { mergeRefs } from "@radix-solid/compose-refs";
-import { createContextScope } from "@radix-solid/context";
-import { createControllableSignal } from "@radix-solid/use-controllable-state";
-import { createId } from "@radix-solid/id";
-import { Presence, usePresenceContext } from "@radix-solid/presence";
+import { composeEventHandlers } from "@radix-solid-js/primitive";
+import { mergeRefs } from "@radix-solid-js/compose-refs";
+import { createContextScope } from "@radix-solid-js/context";
+import { createControllableSignal } from "@radix-solid-js/use-controllable-state";
+import { createId } from "@radix-solid-js/id";
+import { Presence, usePresenceContext } from "@radix-solid-js/presence";
 import {
   Primitive,
   type PrimitiveProps,
-} from "@radix-solid/primitive-component";
+} from "@radix-solid-js/primitive-component";
 
-import type { Scope } from "@radix-solid/context";
+import type { Scope } from "@radix-solid-js/context";
 
 /* -------------------------------------------------------------------------------------------------
  * Collapsible

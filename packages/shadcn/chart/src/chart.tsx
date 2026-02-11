@@ -7,7 +7,7 @@ import {
   For,
   Show,
 } from "solid-js";
-import { cn } from "@shadcn-solid/utils";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* -------------------------------- Types -------------------------------- */
 

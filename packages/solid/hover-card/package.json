@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/hover-card",
+  "name": "@radix-solid-js/hover-card",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,15 +29,15 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/dismissable-layer": "workspace:*",
-    "@radix-solid/popper": "workspace:*",
-    "@radix-solid/portal": "workspace:*",
-    "@radix-solid/presence": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/use-controllable-state": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/dismissable-layer": "workspace:*",
+    "@radix-solid-js/popper": "workspace:*",
+    "@radix-solid-js/portal": "workspace:*",
+    "@radix-solid-js/presence": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -7,14 +7,14 @@ import path from 'path';
 
 const root = path.resolve(__dirname, '../..');
 
-// Helper to create alias for @shadcn-solid/* packages -> source
+// Helper to create alias for @shadcn-solid-js/* packages -> source
 function shadcn(name: string) {
-  return { [`@shadcn-solid/${name}`]: path.resolve(root, `packages/shadcn/${name}/src`) };
+  return { [`@shadcn-solid-js/${name}`]: path.resolve(root, `packages/shadcn/${name}/src`) };
 }
 
-// Helper to create alias for @radix-solid/* packages -> source
+// Helper to create alias for @radix-solid-js/* packages -> source
 function radix(name: string, dir: 'core' | 'solid' = 'solid') {
-  return { [`@radix-solid/${name}`]: path.resolve(root, `packages/${dir}/${name}/src`) };
+  return { [`@radix-solid-js/${name}`]: path.resolve(root, `packages/${dir}/${name}/src`) };
 }
 
 export default defineConfig({
@@ -46,7 +46,7 @@ export default defineConfig({
       ...radix('use-controllable-state'),
       // Foundation packages
       ...radix('slot'),
-      '@radix-solid/primitive-component': path.resolve(root, 'packages/solid/primitive-component/src'),
+      '@radix-solid-js/primitive-component': path.resolve(root, 'packages/solid/primitive-component/src'),
       ...radix('presence'),
       ...radix('visually-hidden'),
       ...radix('arrow'),

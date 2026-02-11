@@ -1,9 +1,9 @@
 import { createSignal, createEffect, onCleanup, on, splitProps, Show } from 'solid-js';
 import { isServer } from 'solid-js/web';
-import { createContextScope } from '@radix-solid/context';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { createContextScope } from '@radix-solid-js/context';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * Avatar

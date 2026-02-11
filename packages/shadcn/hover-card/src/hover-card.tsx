@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as HoverCardPrimitive from "@radix-solid/hover-card";
-import { cn } from "@shadcn-solid/utils";
+import * as HoverCardPrimitive from "@radix-solid-js/hover-card";
+import { cn } from "@shadcn-solid-js/utils";
 
 const HoverCard = HoverCardPrimitive.Root;
 

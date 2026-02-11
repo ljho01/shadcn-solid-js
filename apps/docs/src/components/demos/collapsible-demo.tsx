@@ -1,10 +1,10 @@
 import { createSignal } from "solid-js";
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@shadcn-solid/collapsible";
+} from "@shadcn-solid-js/collapsible";
 
 export default function CollapsibleDemo() {
   const [isOpen, setIsOpen] = createSignal(false);

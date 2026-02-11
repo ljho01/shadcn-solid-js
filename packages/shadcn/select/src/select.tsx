@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as SelectPrimitive from "@radix-solid/select";
-import { cn } from "@shadcn-solid/utils";
+import * as SelectPrimitive from "@radix-solid-js/select";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Select = SelectPrimitive.Root;
 

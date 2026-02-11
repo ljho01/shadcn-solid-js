@@ -2,8 +2,8 @@ import { splitProps } from "solid-js";
 import {
   Label as LabelPrimitive,
   type LabelProps as LabelPrimitiveProps,
-} from "@radix-solid/label";
-import { cn } from "@shadcn-solid/utils";
+} from "@radix-solid-js/label";
+import { cn } from "@shadcn-solid-js/utils";
 
 interface LabelProps extends LabelPrimitiveProps {
   class?: string;

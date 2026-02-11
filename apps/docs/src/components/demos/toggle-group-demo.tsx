@@ -1,4 +1,4 @@
-import { ToggleGroup, ToggleGroupItem } from "@shadcn-solid/toggle-group";
+import { ToggleGroup, ToggleGroupItem } from "@shadcn-solid-js/toggle-group";
 
 export default function ToggleGroupDemo() {
   return (

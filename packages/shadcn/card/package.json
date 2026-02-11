@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/card",
+  "name": "@shadcn-solid-js/card",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,7 +29,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

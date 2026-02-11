@@ -1,7 +1,7 @@
 import { splitProps } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
 /* -------------------------------------------------------------------------------------------------
  * Toggle

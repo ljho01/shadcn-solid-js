@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as TooltipPrimitive from "@radix-solid/tooltip";
-import { cn } from "@shadcn-solid/utils";
+import * as TooltipPrimitive from "@radix-solid-js/tooltip";
+import { cn } from "@shadcn-solid-js/utils";
 
 const TooltipProvider = TooltipPrimitive.Provider;
 

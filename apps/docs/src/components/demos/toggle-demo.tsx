@@ -1,4 +1,4 @@
-import { Toggle } from "@shadcn-solid/toggle";
+import { Toggle } from "@shadcn-solid-js/toggle";
 
 export default function ToggleDemo() {
   return (

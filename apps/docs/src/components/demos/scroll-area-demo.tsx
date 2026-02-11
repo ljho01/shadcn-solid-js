@@ -1,6 +1,6 @@
 import { For } from "solid-js";
-import { ScrollArea } from "@shadcn-solid/scroll-area";
-import { Separator } from "@shadcn-solid/separator";
+import { ScrollArea } from "@shadcn-solid-js/scroll-area";
+import { Separator } from "@shadcn-solid-js/separator";
 
 const tags = Array.from({ length: 50 }).map(
   (_, i, a) => `v1.2.0-beta.${a.length - i}`

@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as SwitchPrimitive from "@radix-solid/switch";
-import { cn } from "@shadcn-solid/utils";
+import * as SwitchPrimitive from "@radix-solid-js/switch";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Switch: Component<ComponentProps<typeof SwitchPrimitive.Root>> = (
   props

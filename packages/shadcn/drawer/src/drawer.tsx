@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as DialogPrimitive from "@radix-solid/dialog";
-import { cn } from "@shadcn-solid/utils";
+import * as DialogPrimitive from "@radix-solid-js/dialog";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Drawer = DialogPrimitive.Root;
 

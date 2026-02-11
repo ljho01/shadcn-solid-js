@@ -9,7 +9,7 @@ import {
   splitProps,
 } from 'solid-js';
 import { isServer } from 'solid-js/web';
-import { clamp } from '@radix-solid/number';
+import { clamp } from '@radix-solid-js/number';
 
 /* -------------------------------------------------------------------------------------------------
  * Input validation

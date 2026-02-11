@@ -9,18 +9,18 @@ import {
   Show,
 } from 'solid-js';
 import { Portal as SolidPortal } from 'solid-js/web';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createCollection } from '@radix-solid/collection';
-import { createContextScope } from '@radix-solid/context';
-import { DismissableLayerBranch } from '@radix-solid/dismissable-layer';
-import { Primitive, dispatchDiscreteCustomEvent } from '@radix-solid/primitive-component';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { VisuallyHidden } from '@radix-solid/visually-hidden';
-import { Presence } from '@radix-solid/presence';
-import { Portal } from '@radix-solid/portal';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createCollection } from '@radix-solid-js/collection';
+import { createContextScope } from '@radix-solid-js/context';
+import { DismissableLayerBranch } from '@radix-solid-js/dismissable-layer';
+import { Primitive, dispatchDiscreteCustomEvent } from '@radix-solid-js/primitive-component';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { VisuallyHidden } from '@radix-solid-js/visually-hidden';
+import { Presence } from '@radix-solid-js/presence';
+import { Portal } from '@radix-solid-js/portal';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * ToastProvider

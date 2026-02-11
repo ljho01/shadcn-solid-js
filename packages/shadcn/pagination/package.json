@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/pagination",
+  "name": "@shadcn-solid-js/pagination",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@shadcn-solid/button": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@shadcn-solid-js/button": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

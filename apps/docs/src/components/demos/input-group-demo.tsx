@@ -1,4 +1,4 @@
-import { Input } from "@shadcn-solid/input";
+import { Input } from "@shadcn-solid-js/input";
 
 export default function InputGroupDemo() {
   return (

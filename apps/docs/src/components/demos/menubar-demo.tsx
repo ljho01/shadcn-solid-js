@@ -12,7 +12,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from "@shadcn-solid/menubar";
+} from "@shadcn-solid-js/menubar";
 
 export default function MenubarDemo() {
   return (

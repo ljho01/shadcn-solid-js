@@ -1,13 +1,13 @@
 import { type JSX, splitProps, createSignal, createEffect, onCleanup } from 'solid-js';
 import { isServer } from 'solid-js/web';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { Primitive } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import * as MenuPrimitive from '@radix-solid/menu';
-import { createMenuScope } from '@radix-solid/menu';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import * as MenuPrimitive from '@radix-solid-js/menu';
+import { createMenuScope } from '@radix-solid-js/menu';
 
-import type { Direction } from '@radix-solid/direction';
+import type { Direction } from '@radix-solid-js/direction';
 
 type Point = { x: number; y: number };
 

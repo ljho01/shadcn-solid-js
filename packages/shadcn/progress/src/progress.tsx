@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as ProgressPrimitive from "@radix-solid/progress";
-import { cn } from "@shadcn-solid/utils";
+import * as ProgressPrimitive from "@radix-solid-js/progress";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Progress: Component<ComponentProps<typeof ProgressPrimitive.Root>> = (
   props

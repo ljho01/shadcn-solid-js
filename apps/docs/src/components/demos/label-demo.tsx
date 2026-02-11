@@ -1,5 +1,5 @@
-import { Checkbox } from "@shadcn-solid/checkbox";
-import { Label } from "@shadcn-solid/label";
+import { Checkbox } from "@shadcn-solid-js/checkbox";
+import { Label } from "@shadcn-solid-js/label";
 
 export default function LabelDemo() {
   return (

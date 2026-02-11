@@ -1,4 +1,4 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 import {
   Card,
   CardContent,
@@ -6,10 +6,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@shadcn-solid/card";
-import { Input } from "@shadcn-solid/input";
-import { Label } from "@shadcn-solid/label";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@shadcn-solid/tabs";
+} from "@shadcn-solid-js/card";
+import { Input } from "@shadcn-solid-js/input";
+import { Label } from "@shadcn-solid-js/label";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@shadcn-solid-js/tabs";
 
 export default function TabsDemo() {
   return (

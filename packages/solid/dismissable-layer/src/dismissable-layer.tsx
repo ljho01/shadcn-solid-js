@@ -7,10 +7,10 @@ import {
   createContext,
   useContext,
 } from "solid-js";
-import { Primitive } from "@radix-solid/primitive-component";
-import { mergeRefs } from "@radix-solid/compose-refs";
-import { createEscapeKeydown } from "@radix-solid/use-escape-keydown";
-import { usePresenceContext } from "@radix-solid/presence";
+import { Primitive } from "@radix-solid-js/primitive-component";
+import { mergeRefs } from "@radix-solid-js/compose-refs";
+import { createEscapeKeydown } from "@radix-solid-js/use-escape-keydown";
+import { usePresenceContext } from "@radix-solid-js/presence";
 
 const POINTER_DOWN_OUTSIDE = "dismissableLayer.pointerDownOutside";
 const FOCUS_OUTSIDE = "dismissableLayer.focusOutside";

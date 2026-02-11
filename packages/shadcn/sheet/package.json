@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/sheet",
+  "name": "@shadcn-solid-js/sheet",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/dialog": "workspace:*",
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/dialog": "workspace:*",
     "class-variance-authority": "^0.7.1"
   },
   "peerDependencies": {

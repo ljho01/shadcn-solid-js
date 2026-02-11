@@ -34,13 +34,13 @@ async function getPackageDependencies(packagePath: string) {
     // Extract dependencies
     if (packageJson.dependencies) {
       for (const [dep, version] of Object.entries(packageJson.dependencies)) {
-        if (dep.startsWith("@shadcn-solid/")) {
+        if (dep.startsWith("@shadcn-solid-js/")) {
           // Registry dependency (other shadcn-solid components)
-          const depName = dep.replace("@shadcn-solid/", "")
+          const depName = dep.replace("@shadcn-solid-js/", "")
           if (depName !== "utils") {
             registryDependencies.push(depName)
           }
-        } else if (dep.startsWith("@radix-solid/")) {
+        } else if (dep.startsWith("@radix-solid-js/")) {
           // Radix dependency
           dependencies.push(`${dep}@${version}`)
         } else if (!dep.startsWith("workspace:")) {
@@ -101,13 +101,13 @@ async function getComponentFiles(componentPath: string, componentName: string) {
 }
 
 function transformImports(content: string): string {
-  // Transform @shadcn-solid/utils to @/lib/utils
+  // Transform @shadcn-solid-js/utils to @/lib/utils
   content = content.replace(
     /from ["']@shadcn-solid\/utils["']/g,
     'from "~/lib/utils"'
   )
 
-  // Transform @radix-solid/* to keep as is (will be installed as dependency)
+  // Transform @radix-solid-js/* to keep as is (will be installed as dependency)
   // No transformation needed for @radix-solid
 
   return content

@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/alert-dialog",
+  "name": "@radix-solid-js/alert-dialog",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,12 +29,12 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/dialog": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/slot": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/dialog": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/slot": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -1,5 +1,5 @@
 import { type JSX, children as resolveChildren } from 'solid-js';
-import { VisuallyHidden } from '@radix-solid/visually-hidden';
+import { VisuallyHidden } from '@radix-solid-js/visually-hidden';
 
 /* -------------------------------------------------------------------------------------------------
  * AccessibleIcon

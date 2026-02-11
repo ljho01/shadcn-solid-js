@@ -7,7 +7,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@shadcn-solid/select";
+} from "@shadcn-solid-js/select";
 
 export default function SelectDemo() {
   const [mounted, setMounted] = createSignal(false);

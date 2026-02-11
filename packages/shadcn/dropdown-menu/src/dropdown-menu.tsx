@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as DropdownMenuPrimitive from "@radix-solid/dropdown-menu";
-import { cn } from "@shadcn-solid/utils";
+import * as DropdownMenuPrimitive from "@radix-solid-js/dropdown-menu";
+import { cn } from "@shadcn-solid-js/utils";
 
 const DropdownMenu = DropdownMenuPrimitive.Root;
 

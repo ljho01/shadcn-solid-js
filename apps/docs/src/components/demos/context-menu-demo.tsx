@@ -12,7 +12,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@shadcn-solid/context-menu";
+} from "@shadcn-solid-js/context-menu";
 
 export default function ContextMenuDemo() {
   return (

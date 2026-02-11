@@ -1,18 +1,18 @@
 import { createEffect, onCleanup, splitProps } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope } from '@radix-solid/context';
-import { useDirection } from '@radix-solid/direction';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope } from '@radix-solid-js/context';
+import { useDirection } from '@radix-solid-js/direction';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 import {
   RovingFocusGroup,
   RovingFocusGroupItem,
   createRovingFocusGroupScope,
-} from '@radix-solid/roving-focus';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
+} from '@radix-solid-js/roving-focus';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
 import { Radio, RadioIndicator, createRadioScope } from './radio';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 import type { RadioIndicatorProps } from './radio';
 
 const ARROW_KEYS = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];

@@ -6,7 +6,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@shadcn-solid/command";
+} from "@shadcn-solid-js/command";
 
 export default function CommandDemo() {
   return (

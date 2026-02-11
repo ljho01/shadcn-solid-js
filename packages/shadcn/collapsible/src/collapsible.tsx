@@ -1,4 +1,4 @@
-import * as CollapsiblePrimitive from '@radix-solid/collapsible';
+import * as CollapsiblePrimitive from '@radix-solid-js/collapsible';
 
 const Collapsible = CollapsiblePrimitive.Root;
 

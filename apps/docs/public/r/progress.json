@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "progress.tsx",
-      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as ProgressPrimitive from \"@radix-solid/progress\";\nimport { cn } from \"~/lib/utils\";\n\nconst Progress: Component<ComponentProps<typeof ProgressPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\", \"value\"]);\n  return (\n    <ProgressPrimitive.Root\n      data-slot=\"progress\"\n      class={cn(\n        \"bg-muted relative flex h-1 w-full items-center overflow-x-hidden rounded-full\",\n        local.class\n      )}\n      {...rest}\n    >\n      <ProgressPrimitive.Indicator\n        data-slot=\"progress-indicator\"\n        class=\"bg-primary size-full flex-1 transition-all\"\n        style={{ transform: `translateX(-${100 - (local.value || 0)}%)` }}\n      />\n    </ProgressPrimitive.Root>\n  );\n};\n\nexport { Progress };\n",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as ProgressPrimitive from \"@radix-solid-js/progress\";\nimport { cn } from \"~/lib/utils\";\n\nconst Progress: Component<ComponentProps<typeof ProgressPrimitive.Root>> = (\n  props\n) => {\n  const [local, rest] = splitProps(props, [\"class\", \"value\"]);\n  return (\n    <ProgressPrimitive.Root\n      data-slot=\"progress\"\n      class={cn(\n        \"bg-muted relative flex h-1 w-full items-center overflow-x-hidden rounded-full\",\n        local.class\n      )}\n      {...rest}\n    >\n      <ProgressPrimitive.Indicator\n        data-slot=\"progress-indicator\"\n        class=\"bg-primary size-full flex-1 transition-all\"\n        style={{ transform: `translateX(-${100 - (local.value || 0)}%)` }}\n      />\n    </ProgressPrimitive.Root>\n  );\n};\n\nexport { Progress };\n",
       "type": "registry:ui",
       "target": "components/ui/progress.tsx"
     },
@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": [
-    "@radix-solid/progress@workspace:*"
+    "@radix-solid-js/progress@workspace:*"
   ],
   "devDependencies": [
     "tsup@^8.3.6",

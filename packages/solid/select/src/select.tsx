@@ -11,19 +11,19 @@ import {
   Show,
 } from 'solid-js';
 import { Portal as SolidPortal } from 'solid-js/web';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs, type Ref } from '@radix-solid/compose-refs';
-import { useDirection, type Direction } from '@radix-solid/direction';
-import { createId } from '@radix-solid/id';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs, type Ref } from '@radix-solid-js/compose-refs';
+import { useDirection, type Direction } from '@radix-solid-js/direction';
+import { createId } from '@radix-solid-js/id';
 import {
   createPopperScope,
   Popper,
   PopperAnchor,
   PopperContent,
   PopperArrow,
-} from '@radix-solid/popper';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { VisuallyHidden } from '@radix-solid/visually-hidden';
+} from '@radix-solid-js/popper';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { VisuallyHidden } from '@radix-solid-js/visually-hidden';
 
 /* -------------------------------------------------------------------------------------------------
  * Constants & Helpers

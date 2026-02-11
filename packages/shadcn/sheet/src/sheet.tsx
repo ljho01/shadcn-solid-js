@@ -4,9 +4,9 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as DialogPrimitive from "@radix-solid/dialog";
+import * as DialogPrimitive from "@radix-solid-js/dialog";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@shadcn-solid/utils";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Sheet = DialogPrimitive.Root;
 

@@ -7,13 +7,13 @@ import {
   splitProps,
   Show,
 } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { useDirection, type Direction } from '@radix-solid/direction';
-import { Presence } from '@radix-solid/presence';
-import { Primitive } from '@radix-solid/primitive-component';
-import { clamp } from '@radix-solid/number';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { useDirection, type Direction } from '@radix-solid-js/direction';
+import { Presence } from '@radix-solid-js/presence';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { clamp } from '@radix-solid-js/number';
 import { createStateMachine } from './use-state-machine';
 
 /* -------------------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-import { Button } from "@shadcn-solid/button";
+import { Button } from "@shadcn-solid-js/button";
 
 export default function ButtonDemo() {
   return (

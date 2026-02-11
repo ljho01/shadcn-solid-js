@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "aspect-ratio.tsx",
-      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as AspectRatioPrimitive from \"@radix-solid/aspect-ratio\";\nimport { cn } from \"~/lib/utils\";\n\ninterface AspectRatioProps extends ComponentProps<\n  typeof AspectRatioPrimitive.Root\n> {\n  class?: string;\n}\n\nconst AspectRatio: Component<AspectRatioProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AspectRatioPrimitive.Root\n      data-slot=\"aspect-ratio\"\n      class={cn(local.class)}\n      {...rest}\n    />\n  );\n};\n\nexport { AspectRatio };\nexport type { AspectRatioProps };\n",
+      "content": "import { type Component, type ComponentProps, splitProps } from \"solid-js\";\nimport * as AspectRatioPrimitive from \"@radix-solid-js/aspect-ratio\";\nimport { cn } from \"~/lib/utils\";\n\ninterface AspectRatioProps extends ComponentProps<\n  typeof AspectRatioPrimitive.Root\n> {\n  class?: string;\n}\n\nconst AspectRatio: Component<AspectRatioProps> = (props) => {\n  const [local, rest] = splitProps(props, [\"class\"]);\n  return (\n    <AspectRatioPrimitive.Root\n      data-slot=\"aspect-ratio\"\n      class={cn(local.class)}\n      {...rest}\n    />\n  );\n};\n\nexport { AspectRatio };\nexport type { AspectRatioProps };\n",
       "type": "registry:ui",
       "target": "components/ui/aspect-ratio.tsx"
     },
@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": [
-    "@radix-solid/aspect-ratio@workspace:*"
+    "@radix-solid-js/aspect-ratio@workspace:*"
   ],
   "devDependencies": [
     "tsup@^8.3.6",

@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as AvatarPrimitive from "@radix-solid/avatar";
-import { cn } from "@shadcn-solid/utils";
+import * as AvatarPrimitive from "@radix-solid-js/avatar";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* --------------------------------- Avatar --------------------------------- */
 

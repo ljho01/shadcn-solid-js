@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as CheckboxPrimitive from "@radix-solid/checkbox";
-import { cn } from "@shadcn-solid/utils";
+import * as CheckboxPrimitive from "@radix-solid-js/checkbox";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Checkbox: Component<ComponentProps<typeof CheckboxPrimitive.Root>> = (
   props

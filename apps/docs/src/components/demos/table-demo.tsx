@@ -8,7 +8,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@shadcn-solid/table";
+} from "@shadcn-solid-js/table";
 
 const invoices = [
   {

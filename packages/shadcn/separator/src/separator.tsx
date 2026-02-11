@@ -2,8 +2,8 @@ import { splitProps } from "solid-js";
 import {
   Separator as SeparatorPrimitive,
   type SeparatorProps as SeparatorPrimitiveProps,
-} from "@radix-solid/separator";
-import { cn } from "@shadcn-solid/utils";
+} from "@radix-solid-js/separator";
+import { cn } from "@shadcn-solid-js/utils";
 
 interface SeparatorProps extends SeparatorPrimitiveProps {
   class?: string;

@@ -1,12 +1,12 @@
 import { type JSX, splitProps, createSignal, createEffect, onCleanup, Show } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope } from '@radix-solid/context';
-import { createId } from '@radix-solid/id';
-import { Label as LabelPrimitive, type LabelProps } from '@radix-solid/label';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope } from '@radix-solid-js/context';
+import { createId } from '@radix-solid-js/id';
+import { Label as LabelPrimitive, type LabelProps } from '@radix-solid-js/label';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 type ScopedProps<P> = P & { __scopeForm?: Scope };
 const [createFormContext, createFormScope] = createContextScope('Form');

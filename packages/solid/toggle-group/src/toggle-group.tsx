@@ -1,16 +1,16 @@
 import { splitProps, Show } from 'solid-js';
-import { createContextScope } from '@radix-solid/context';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { createContextScope } from '@radix-solid-js/context';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 import {
   RovingFocusGroup,
   RovingFocusGroupItem,
   createRovingFocusGroupScope,
-} from '@radix-solid/roving-focus';
-import { Toggle, type ToggleProps } from '@radix-solid/toggle';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { useDirection } from '@radix-solid/direction';
+} from '@radix-solid-js/roving-focus';
+import { Toggle, type ToggleProps } from '@radix-solid-js/toggle';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { useDirection } from '@radix-solid-js/direction';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * ToggleGroup

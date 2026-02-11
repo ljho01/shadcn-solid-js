@@ -4,8 +4,8 @@ import {
   type JSX,
   splitProps,
 } from "solid-js";
-import * as NavigationMenuPrimitive from "@radix-solid/navigation-menu";
-import { cn } from "@shadcn-solid/utils";
+import * as NavigationMenuPrimitive from "@radix-solid-js/navigation-menu";
+import { cn } from "@shadcn-solid-js/utils";
 
 const NavigationMenuItem: Component<
   ComponentProps<typeof NavigationMenuPrimitive.Item>

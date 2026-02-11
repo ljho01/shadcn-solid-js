@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/dismissable-layer",
+  "name": "@radix-solid-js/dismissable-layer",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -28,11 +28,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/presence": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/use-escape-keydown": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/presence": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/use-escape-keydown": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -3,7 +3,7 @@ import {
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@shadcn-solid/input-otp";
+} from "@shadcn-solid-js/input-otp";
 
 export default function InputOTPDemo() {
   return (

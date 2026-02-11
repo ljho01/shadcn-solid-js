@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/collection",
+  "name": "@radix-solid-js/collection",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -31,9 +31,9 @@
     "solid-js": "^1.8.0"
   },
   "dependencies": {
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/slot": "workspace:*"
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/slot": "workspace:*"
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",

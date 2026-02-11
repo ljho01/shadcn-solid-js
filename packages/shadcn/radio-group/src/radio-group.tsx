@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as RadioGroupPrimitive from "@radix-solid/radio-group";
-import { cn } from "@shadcn-solid/utils";
+import * as RadioGroupPrimitive from "@radix-solid-js/radio-group";
+import { cn } from "@shadcn-solid-js/utils";
 
 const RadioGroup: Component<ComponentProps<typeof RadioGroupPrimitive.Root>> = (
   props

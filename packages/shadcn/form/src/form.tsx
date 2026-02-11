@@ -7,9 +7,9 @@ import {
   splitProps,
   useContext,
 } from "solid-js";
-import * as FormPrimitive from "@radix-solid/form";
-import { Label } from "@shadcn-solid/label";
-import { cn } from "@shadcn-solid/utils";
+import * as FormPrimitive from "@radix-solid-js/form";
+import { Label } from "@shadcn-solid-js/label";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Form = FormPrimitive.Root;
 

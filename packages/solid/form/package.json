@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/form",
+  "name": "@radix-solid-js/form",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,12 +29,12 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/compose-refs": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/id": "workspace:*",
-    "@radix-solid/label": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/compose-refs": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/id": "workspace:*",
+    "@radix-solid-js/label": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

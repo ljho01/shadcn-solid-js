@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-solid/scroll-area",
+  "name": "@shadcn-solid-js/scroll-area",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@shadcn-solid/utils": "workspace:*",
-    "@radix-solid/scroll-area": "workspace:*"
+    "@shadcn-solid-js/utils": "workspace:*",
+    "@radix-solid-js/scroll-area": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

@@ -1,5 +1,5 @@
-import { Label } from "@shadcn-solid/label";
-import { RadioGroup, RadioGroupItem } from "@shadcn-solid/radio-group";
+import { Label } from "@shadcn-solid-js/label";
+import { RadioGroup, RadioGroupItem } from "@shadcn-solid-js/radio-group";
 
 export default function RadioGroupDemo() {
   return (

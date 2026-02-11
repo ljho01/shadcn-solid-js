@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/toggle-group",
+  "name": "@radix-solid-js/toggle-group",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -29,13 +29,13 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@radix-solid/primitive": "workspace:*",
-    "@radix-solid/context": "workspace:*",
-    "@radix-solid/direction": "workspace:*",
-    "@radix-solid/primitive-component": "workspace:*",
-    "@radix-solid/roving-focus": "workspace:*",
-    "@radix-solid/toggle": "workspace:*",
-    "@radix-solid/use-controllable-state": "workspace:*"
+    "@radix-solid-js/primitive": "workspace:*",
+    "@radix-solid-js/context": "workspace:*",
+    "@radix-solid-js/direction": "workspace:*",
+    "@radix-solid-js/primitive-component": "workspace:*",
+    "@radix-solid-js/roving-focus": "workspace:*",
+    "@radix-solid-js/toggle": "workspace:*",
+    "@radix-solid-js/use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

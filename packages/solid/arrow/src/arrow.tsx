@@ -1,5 +1,5 @@
 import { type JSX, splitProps, mergeProps } from 'solid-js';
-import { Primitive } from '@radix-solid/primitive-component';
+import { Primitive } from '@radix-solid-js/primitive-component';
 
 interface ArrowProps extends JSX.SvgSVGAttributes<SVGSVGElement> {
   ref?: (el: SVGSVGElement) => void;

@@ -1,13 +1,13 @@
 import { type JSX, createSignal, createEffect, on, splitProps } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope } from '@radix-solid/context';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { createPrevious } from '@radix-solid/use-previous';
-import { createSize } from '@radix-solid/use-size';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope } from '@radix-solid-js/context';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { createPrevious } from '@radix-solid-js/use-previous';
+import { createSize } from '@radix-solid-js/use-size';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * Switch

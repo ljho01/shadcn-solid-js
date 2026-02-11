@@ -7,33 +7,33 @@ import {
   splitProps,
   Show,
 } from "solid-js";
-import { composeEventHandlers } from "@radix-solid/primitive";
-import { createCollection } from "@radix-solid/collection";
-import { mergeRefs } from "@radix-solid/compose-refs";
-import { createContextScope, type Scope } from "@radix-solid/context";
-import { useDirection } from "@radix-solid/direction";
-import { DismissableLayer } from "@radix-solid/dismissable-layer";
-import { useFocusGuards } from "@radix-solid/focus-guards";
-import { FocusScope } from "@radix-solid/focus-scope";
-import { createId } from "@radix-solid/id";
+import { composeEventHandlers } from "@radix-solid-js/primitive";
+import { createCollection } from "@radix-solid-js/collection";
+import { mergeRefs } from "@radix-solid-js/compose-refs";
+import { createContextScope, type Scope } from "@radix-solid-js/context";
+import { useDirection } from "@radix-solid-js/direction";
+import { DismissableLayer } from "@radix-solid-js/dismissable-layer";
+import { useFocusGuards } from "@radix-solid-js/focus-guards";
+import { FocusScope } from "@radix-solid-js/focus-scope";
+import { createId } from "@radix-solid-js/id";
 import {
   createPopperScope,
   Popper,
   PopperAnchor,
   PopperContent,
   PopperArrow,
-} from "@radix-solid/popper";
-import { Portal as PortalPrimitive } from "@radix-solid/portal";
-import { Presence } from "@radix-solid/presence";
+} from "@radix-solid-js/popper";
+import { Portal as PortalPrimitive } from "@radix-solid-js/portal";
+import { Presence } from "@radix-solid-js/presence";
 import {
   Primitive,
   dispatchDiscreteCustomEvent,
-} from "@radix-solid/primitive-component";
+} from "@radix-solid-js/primitive-component";
 import {
   createRovingFocusGroupScope,
   RovingFocusGroup,
   RovingFocusGroupItem,
-} from "@radix-solid/roving-focus";
+} from "@radix-solid-js/roving-focus";
 import { hideOthers } from "aria-hidden";
 
 type Direction = "ltr" | "rtl";

@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import { Combobox } from "@shadcn-solid/combobox";
+import { Combobox } from "@shadcn-solid-js/combobox";
 
 const frameworks = [
   { value: "next.js", label: "Next.js" },

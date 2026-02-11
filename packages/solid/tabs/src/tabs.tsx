@@ -1,14 +1,14 @@
 import { type JSX, createEffect, splitProps, Show } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createContextScope } from '@radix-solid/context';
-import { createRovingFocusGroupScope, RovingFocusGroup, RovingFocusGroupItem } from '@radix-solid/roving-focus';
-import { Presence } from '@radix-solid/presence';
-import { Primitive, type PrimitiveProps } from '@radix-solid/primitive-component';
-import { useDirection } from '@radix-solid/direction';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { createId } from '@radix-solid/id';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createContextScope } from '@radix-solid-js/context';
+import { createRovingFocusGroupScope, RovingFocusGroup, RovingFocusGroupItem } from '@radix-solid-js/roving-focus';
+import { Presence } from '@radix-solid-js/presence';
+import { Primitive, type PrimitiveProps } from '@radix-solid-js/primitive-component';
+import { useDirection } from '@radix-solid-js/direction';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { createId } from '@radix-solid-js/id';
 
-import type { Scope } from '@radix-solid/context';
+import type { Scope } from '@radix-solid-js/context';
 
 /* -------------------------------------------------------------------------------------------------
  * Tabs

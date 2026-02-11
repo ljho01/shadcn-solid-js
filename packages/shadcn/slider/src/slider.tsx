@@ -1,6 +1,6 @@
 import { type Component, type ComponentProps, splitProps } from "solid-js";
-import * as SliderPrimitive from "@radix-solid/slider";
-import { cn } from "@shadcn-solid/utils";
+import * as SliderPrimitive from "@radix-solid-js/slider";
+import { cn } from "@shadcn-solid-js/utils";
 
 const Slider: Component<ComponentProps<typeof SliderPrimitive.Root>> = (
   props

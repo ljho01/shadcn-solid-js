@@ -1,5 +1,5 @@
 /**
- * 모든 scoped 패키지(@radix-solid/*, @shadcn-solid/*)의 package.json에
+ * 모든 scoped 패키지(@radix-solid-js/*, @shadcn-solid-js/*)의 package.json에
  * publishConfig: { "access": "public" }을 추가하는 스크립트
  *
  * 실행: bun run scripts/add-publish-config.ts

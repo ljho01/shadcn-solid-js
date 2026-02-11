@@ -7,15 +7,15 @@ import {
   createMemo,
   Show,
 } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { createCollection } from '@radix-solid/collection';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { useDirection, type Direction } from '@radix-solid/direction';
-import { Primitive } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { createElementSize } from '@radix-solid/use-size';
-import { clamp } from '@radix-solid/number';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { createCollection } from '@radix-solid-js/collection';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { useDirection, type Direction } from '@radix-solid-js/direction';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { createElementSize } from '@radix-solid-js/use-size';
+import { clamp } from '@radix-solid-js/number';
 
 /* -------------------------------------------------------------------------------------------------
  * Constants

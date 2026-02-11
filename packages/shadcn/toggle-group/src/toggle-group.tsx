@@ -6,10 +6,10 @@ import {
   splitProps,
   useContext,
 } from "solid-js";
-import * as ToggleGroupPrimitive from "@radix-solid/toggle-group";
+import * as ToggleGroupPrimitive from "@radix-solid-js/toggle-group";
 import { type VariantProps } from "class-variance-authority";
-import { toggleVariants } from "@shadcn-solid/toggle";
-import { cn } from "@shadcn-solid/utils";
+import { toggleVariants } from "@shadcn-solid-js/toggle";
+import { cn } from "@shadcn-solid-js/utils";
 
 type ToggleGroupContextValue = VariantProps<typeof toggleVariants> & {
   spacing?: number;

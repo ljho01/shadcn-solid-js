@@ -1,4 +1,4 @@
-import { Spinner } from "@shadcn-solid/spinner";
+import { Spinner } from "@shadcn-solid-js/spinner";
 
 export default function SpinnerDemo() {
   return (

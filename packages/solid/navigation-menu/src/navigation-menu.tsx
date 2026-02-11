@@ -6,15 +6,15 @@ import {
   splitProps,
   createMemo,
 } from 'solid-js';
-import { composeEventHandlers } from '@radix-solid/primitive';
-import { mergeRefs } from '@radix-solid/compose-refs';
-import { createContextScope, type Scope } from '@radix-solid/context';
-import { DismissableLayer } from '@radix-solid/dismissable-layer';
-import { createId } from '@radix-solid/id';
-import { Presence } from '@radix-solid/presence';
-import { Primitive } from '@radix-solid/primitive-component';
-import { createControllableSignal } from '@radix-solid/use-controllable-state';
-import { createPrevious } from '@radix-solid/use-previous';
+import { composeEventHandlers } from '@radix-solid-js/primitive';
+import { mergeRefs } from '@radix-solid-js/compose-refs';
+import { createContextScope, type Scope } from '@radix-solid-js/context';
+import { DismissableLayer } from '@radix-solid-js/dismissable-layer';
+import { createId } from '@radix-solid-js/id';
+import { Presence } from '@radix-solid-js/presence';
+import { Primitive } from '@radix-solid-js/primitive-component';
+import { createControllableSignal } from '@radix-solid-js/use-controllable-state';
+import { createPrevious } from '@radix-solid-js/use-previous';
 
 /* -------------------------------------------------------------------------------------------------
  * NavigationMenu

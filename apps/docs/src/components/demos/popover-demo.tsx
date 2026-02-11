@@ -1,7 +1,7 @@
-import { Button } from "@shadcn-solid/button";
-import { Input } from "@shadcn-solid/input";
-import { Label } from "@shadcn-solid/label";
-import { Popover, PopoverContent, PopoverTrigger } from "@shadcn-solid/popover";
+import { Button } from "@shadcn-solid-js/button";
+import { Input } from "@shadcn-solid-js/input";
+import { Label } from "@shadcn-solid-js/label";
+import { Popover, PopoverContent, PopoverTrigger } from "@shadcn-solid-js/popover";
 
 export default function PopoverDemo() {
   return (

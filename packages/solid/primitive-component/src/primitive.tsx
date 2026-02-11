@@ -1,5 +1,5 @@
 import { type JSX, splitProps } from "solid-js";
-import { Slot } from "@radix-solid/slot";
+import { Slot } from "@radix-solid-js/slot";
 
 /* -------------------------------------------------------------------------------------------------
  * Primitive

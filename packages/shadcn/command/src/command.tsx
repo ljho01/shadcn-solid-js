@@ -8,8 +8,8 @@ import {
   splitProps,
   Show,
 } from "solid-js";
-import * as DialogPrimitive from "@radix-solid/dialog";
-import { cn } from "@shadcn-solid/utils";
+import * as DialogPrimitive from "@radix-solid-js/dialog";
+import { cn } from "@shadcn-solid-js/utils";
 
 /* -------------------------------- Context -------------------------------- */
 

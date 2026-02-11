@@ -1,5 +1,5 @@
 {
-  "name": "@radix-solid/visually-hidden",
+  "name": "@radix-solid-js/visually-hidden",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -28,7 +28,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@radix-solid/primitive-component": "workspace:*"
+    "@radix-solid-js/primitive-component": "workspace:*"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"
