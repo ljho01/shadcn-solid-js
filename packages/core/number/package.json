@@ -31,5 +31,8 @@
     "@repo/tsconfig": "workspace:*",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
