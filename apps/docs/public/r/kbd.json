@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "kbd.tsx",
-      "content": "import { type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"~/lib/utils\";\n\ninterface KbdProps extends JSX.HTMLAttributes<HTMLElement> {}\n\nfunction Kbd(props: KbdProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <kbd\n      data-slot=\"kbd\"\n      class={cn(\n        \"bg-muted text-muted-foreground pointer-events-none inline-flex h-5 w-fit min-w-5 items-center justify-center gap-1 rounded-sm px-1 font-sans text-xs font-medium select-none [&_svg:not([class*='size-'])]:size-3 [[data-slot=tooltip-content]_&]:bg-background/20 [[data-slot=tooltip-content]_&]:text-background dark:[[data-slot=tooltip-content]_&]:bg-background/10\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\nexport { Kbd };\nexport type { KbdProps };\n",
+      "content": "import { type JSX, splitProps } from \"solid-js\";\nimport { cn } from \"@shadcn-solid-js/utils\";\n\ninterface KbdProps extends JSX.HTMLAttributes<HTMLElement> {}\n\nfunction Kbd(props: KbdProps) {\n  const [local, rest] = splitProps(props, [\"class\"]);\n\n  return (\n    <kbd\n      data-slot=\"kbd\"\n      class={cn(\n        \"bg-muted text-muted-foreground pointer-events-none inline-flex h-5 w-fit min-w-5 items-center justify-center gap-1 rounded-sm px-1 font-sans text-xs font-medium select-none [&_svg:not([class*='size-'])]:size-3 [[data-slot=tooltip-content]_&]:bg-background/20 [[data-slot=tooltip-content]_&]:text-background dark:[[data-slot=tooltip-content]_&]:bg-background/10\",\n        local.class\n      )}\n      {...rest}\n    />\n  );\n}\n\nexport { Kbd };\nexport type { KbdProps };\n",
       "type": "registry:ui",
       "target": "components/ui/kbd.tsx"
     },

@@ -41,13 +41,10 @@
     "solid-js": "^1.9.3",
     "vitest": "^2.1.8"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ljho01/shadcn-solid-js.git",
     "directory": "packages/shadcn/textarea"
-  }
+  },
+  "private": true
 }

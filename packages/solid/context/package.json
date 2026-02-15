@@ -1,6 +1,6 @@
 {
   "name": "@radix-solid-js/context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -37,8 +37,7 @@
     "solid-js": "^1.9.3"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",

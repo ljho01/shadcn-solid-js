@@ -3,12 +3,11 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [
-    ["@radix-solid-js/*"],
-    ["@shadcn-solid-js/*"]
+    ["@radix-solid-js/*"]
   ],
   "linked": [],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": []
+  "ignore": ["@shadcn-solid-js/*"]
 }
