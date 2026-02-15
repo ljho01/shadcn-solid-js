@@ -58,10 +58,6 @@
 "@radix-solid-js/tabs": patch
 "@radix-solid-js/rect": patch
 "@radix-solid-js/id": patch
-"@repo/docs": patch
-"@repo/build-config": patch
-"@repo/test-utils": patch
-"@repo/tsconfig": patch
 "shadcn-solid-js": patch
 ---
 
