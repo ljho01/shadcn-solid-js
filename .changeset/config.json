@@ -9,5 +9,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@shadcn-solid-js/*"]
+  "ignore": ["@shadcn-solid-js/*", "@repo/*"]
 }
